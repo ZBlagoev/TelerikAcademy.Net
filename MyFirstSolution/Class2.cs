@@ -14,7 +14,7 @@ Hello, John!
 
 using System;
 
-namespace Task_02
+namespace Demo_01
 {
     class Program
     {

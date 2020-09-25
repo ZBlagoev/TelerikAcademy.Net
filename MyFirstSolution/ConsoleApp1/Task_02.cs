@@ -16,7 +16,7 @@ using System;
 
 namespace Task_02
 {
-    class Program
+    class Task_02
     {
         static void Main(string[] args)
 
