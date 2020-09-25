@@ -23,11 +23,14 @@ namespace Task_03
     {
         static void Main(string[] args)
         {
+            // inputs
             string a = Console.ReadLine();
             string b = Console.ReadLine();
 
+            // calculations
             int area = int.Parse(a) * int.Parse(b);
 
+            // outputs
             Console.WriteLine(area);
         }
     }

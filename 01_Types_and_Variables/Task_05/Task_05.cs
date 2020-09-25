@@ -18,12 +18,14 @@ namespace Task_05
     {
         static void Main(string[] args)
         {
-            
+            // inputs
+            string sumNeto = Console.ReadLine();
 
+            // calculations
+            float sumBruto = float.Parse(sumNeto) * 0.10f + float.Parse(sumNeto);
 
-
-
-
+            // ouptuts
+            Console.WriteLine(Math.Round(sumBruto, 0));
 
         }
     }

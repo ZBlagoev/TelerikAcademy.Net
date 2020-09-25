@@ -15,8 +15,10 @@ namespace Task_02
     {
         static void Main(string[] args)
         {
+            // input
             string firstName = Console.ReadLine();
 
+            // output
             Console.WriteLine("Hello, {0}!", firstName);
         }
     }
