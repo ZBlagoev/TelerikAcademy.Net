@@ -11,6 +11,7 @@ namespace HumanInput
 
             // output
             Console.WriteLine("Hello {0}", name);
+            Console.WriteLine($"Hello {name}");
         }
     }
 }
