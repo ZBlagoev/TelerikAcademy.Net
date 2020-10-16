@@ -2,6 +2,7 @@
  * Write a program that enters 3 numbers (each number will be on a separate/new line), calculates and prints the sum of the greatest and smallest of them.
  */
 
+using Microsoft.VisualBasic;
 using System;
 
 namespace HW_07
@@ -24,7 +25,7 @@ namespace HW_07
                 //biggest
             if (a > b)
             {
-                if (a > c)
+                if (a > c) 
                 {
                     biggest = a;
                 }
