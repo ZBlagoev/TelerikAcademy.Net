@@ -12,25 +12,64 @@ namespace HW_02
         static void Main(string[] args)
         {
             // input
-            string cName = "(no name)";
-            string cAddress = "(no address)";
-            string pNumber = "(no phone)";
-            string fNumber = "(no fax)";
-            string websie = "(no website)";
-            string mName1 = "(no name)";
-            string mName2 = "(no name)";
-            string mAge = "(no age)";
-            string mPhone = "(no phone)";
+            string cName = Console.ReadLine();
+            string cAddress = Console.ReadLine();
+            string pNumber = Console.ReadLine();
+            string fNumber = Console.ReadLine();
+            string websie = Console.ReadLine();
+            string mName1 = Console.ReadLine();
+            string mName2 = Console.ReadLine();
+            string mAge = Console.ReadLine();
+            string mPhone = Console.ReadLine();
 
-            cName = Console.ReadLine();
-            cAddress = Console.ReadLine();
-            pNumber = Console.ReadLine();
-            fNumber = Console.ReadLine();
-            websie = Console.ReadLine();
-            mName1 = Console.ReadLine();
-            mName2 = Console.ReadLine();
-            mAge = Console.ReadLine();
-            mPhone = Console.ReadLine();
+            // calculations
+
+                //company name
+            if (string.IsNullOrEmpty(cName))
+            {
+                cName = "(no name)";
+            }
+                // company address
+            if (string.IsNullOrEmpty(cAddress))
+            {
+                cAddress = "(no address)";
+            }
+                // phone number
+            if (string.IsNullOrEmpty(pNumber))
+            {
+                pNumber = "(no phone)";
+            }
+                // fax number
+            if (string.IsNullOrEmpty(fNumber))
+            {
+                fNumber = "(no fax)";
+            }
+                // website
+            if (string.IsNullOrEmpty(websie))
+            {
+                websie = "(no website)";
+            }
+                //manager first name
+            if (string.IsNullOrEmpty(mName1))
+            {
+                mName1 = "(no first name)";
+            }
+                // manager last name
+            if (string.IsNullOrEmpty(mName2))
+            {
+                mName2 = "(no last name)";
+            }
+                // manager age
+            if (string.IsNullOrEmpty(mAge))
+            {
+                mAge = "(no age)";
+            }
+                // manager phone
+            if (string.IsNullOrEmpty(mPhone))
+            {
+                mPhone = "(no phone)";
+            }
+
 
             // output
             Console.WriteLine($"{cName} \n" +
