@@ -23,7 +23,6 @@ namespace HW_02
             string mPhone = Console.ReadLine();
 
             // calculations
-
                 //company name
             if (string.IsNullOrEmpty(cName))
             {
@@ -70,7 +69,6 @@ namespace HW_02
                 mPhone = "(no phone)";
             }
 
-
             // output
             Console.WriteLine($"{cName} \n" +
                               $"Address: {cAddress} \n" +
@@ -78,32 +76,6 @@ namespace HW_02
                               $"Fax: {fNumber} \n" +
                               $"Web site: {websie} \n" +
                               $"Manager: {mName1} {mName2} (age: {mAge}, tel. {mPhone})");
-            
-            
-
         }
     }
 }
-
-
-
-
-
-/*
-Company name:	Telerik Academy
-Company address:	31 Al. Malinov, Sofia
-Phone number:	+359 888 55 55 555
-Fax number:	
-Web site:	http://telerikacademy.com/
-Manager first name:	Martin
-Manager last name:	Veshev
-Manager age:	25
-Manager phone:	+359 2 981 981
-
-Telerik Academy
-Address: 31 Al. Malinov, Sofia
-Tel. +359 888 55 55 555
-Fax: (no fax)
-Web site: http://telerikacademy.com/
-Manager: Martin Veshev (age: 25, tel. +359 2 981 981)
-*/
