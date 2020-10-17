@@ -31,7 +31,7 @@ namespace Task_09
             double result = (4.54 / (m * 1.6)) * 100;
 
             // outputs
-            Console.WriteLine($"{Math.Round(result)} litres per 100 km");
+            Console.WriteLine($"{Math.Floor(result)} litres per 100 km");
 
         }
     }
