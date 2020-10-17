@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_01", "HW_01\HW_01.csproj", "{8E5CE613-081C-4A98-9F11-7D903052AF6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 1. Sum of 3 Numbers", "HW_01\Problem 1. Sum of 3 Numbers.csproj", "{8E5CE613-081C-4A98-9F11-7D903052AF6C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_02", "HW_02\HW_02.csproj", "{C2056DC7-D626-4CD1-8150-4772CE90E65E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 2. Print Company Information", "HW_02\Problem 2. Print Company Information.csproj", "{C2056DC7-D626-4CD1-8150-4772CE90E65E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_03", "HW_03\HW_03.csproj", "{39F9DCF2-731A-4793-BEE1-6BC136DA6685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 3. Circle Perimeter and Area", "HW_03\Problem 3. Circle Perimeter and Area.csproj", "{39F9DCF2-731A-4793-BEE1-6BC136DA6685}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_04", "HW_04\HW_04.csproj", "{1F56FCCF-9E36-4B5A-BFF3-C33D7A9854E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 4. Number Comparer", "HW_04\Problem 4. Number Comparer.csproj", "{1F56FCCF-9E36-4B5A-BFF3-C33D7A9854E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_05", "HW_05\HW_05.csproj", "{067F7568-CB6C-471E-A028-C80254EC16A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 5. Quadratic Equation", "HW_05\Problem 5. Quadratic Equation.csproj", "{067F7568-CB6C-471E-A028-C80254EC16A0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_06", "HW_06\HW_06.csproj", "{82C07534-BF6C-4CD7-8327-8FA86426E902}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 6. Sum of 5 Numbers", "HW_06\Problem 6. Sum of 5 Numbers.csproj", "{82C07534-BF6C-4CD7-8327-8FA86426E902}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_07", "HW_07\HW_07.csproj", "{77A5E83D-D118-4346-A9E3-5D1B5AC092DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 7. Sum of greatest and smallest", "HW_07\Problem 7. Sum of greatest and smallest.csproj", "{77A5E83D-D118-4346-A9E3-5D1B5AC092DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
