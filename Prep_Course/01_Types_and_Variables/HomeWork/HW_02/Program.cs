@@ -70,12 +70,7 @@ namespace HW_02
             }
 
             // output
-            Console.WriteLine($"{cName} \n" +
-                              $"Address: {cAddress} \n" +
-                              $"Tel. {pNumber} \n" +
-                              $"Fax: {fNumber} \n" +
-                              $"Web site: {websie} \n" +
-                              $"Manager: {mName1} {mName2} (age: {mAge}, tel. {mPhone})");
+            Console.WriteLine($"{cName} \nAddress: {cAddress} \nTel. {pNumber} \nFax: {fNumber} \nWeb site: {websie} \nManager: {mName1} {mName2} (age: {mAge}, tel. {mPhone})");
         }
     }
 }
