@@ -15,17 +15,10 @@ namespace HW_07
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
 
-            int biggest;
-            int smallest;
-            int sumOf;
-
             // calculation
-
-            biggest = Math.Max(a, Math.Max(b, c));
-
-            smallest = Math.Min(a, Math.Min(b, c));
-
-            sumOf = smallest + biggest;
+            int biggest = Math.Max(a, Math.Max(b, c));
+            int smallest = Math.Min(a, Math.Min(b, c));
+            int sumOf = smallest + biggest;
 
             // output
             Console.WriteLine(sumOf);

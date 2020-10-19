@@ -11,11 +11,11 @@ namespace HW_04
         static void Main(string[] args)
         {
             // input
-            int first = int.Parse(Console.ReadLine());
-            int second = int.Parse(Console.ReadLine());
+            double first = double.Parse(Console.ReadLine());
+            double second = double.Parse(Console.ReadLine());
 
             // calculation
-            int result = (first + second + Math.Abs(first - second)) / 2;
+            double result = (first + second + Math.Abs(first - second)) / 2;
 
             // output
             Console.WriteLine(result);
