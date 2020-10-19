@@ -11,14 +11,14 @@ namespace HW_06
         static void Main(string[] args)
         {
             // input
-            int first = int.Parse(Console.ReadLine());
-            int second = int.Parse(Console.ReadLine());
-            int third = int.Parse(Console.ReadLine());
-            int fourth = int.Parse(Console.ReadLine());
-            int fifth = int.Parse(Console.ReadLine());
+            double first = double.Parse(Console.ReadLine());
+            double second = double.Parse(Console.ReadLine());
+            double third = double.Parse(Console.ReadLine());
+            double fourth = double.Parse(Console.ReadLine());
+            double fifth = double.Parse(Console.ReadLine());
 
             // calculation
-            int sumOf = first + second + third + fourth + fifth;
+            double sumOf = first + second + third + fourth + fifth;
 
             // output
             Console.WriteLine(sumOf);

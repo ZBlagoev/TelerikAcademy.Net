@@ -11,14 +11,14 @@ namespace HW_07
         static void Main(string[] args)
         {
             // input
-            int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
-            int c = int.Parse(Console.ReadLine());
+            double a = double.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
+            double c = double.Parse(Console.ReadLine());
 
             // calculation
-            int biggest = Math.Max(a, Math.Max(b, c));
-            int smallest = Math.Min(a, Math.Min(b, c));
-            int sumOf = smallest + biggest;
+            double biggest = Math.Max(a, Math.Max(b, c));
+            double smallest = Math.Min(a, Math.Min(b, c));
+            double sumOf = smallest + biggest;
 
             // output
             Console.WriteLine(sumOf);
