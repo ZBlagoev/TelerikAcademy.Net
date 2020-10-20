@@ -19,6 +19,7 @@ On the only line of output, print the name of the season in pascal case
 */
 
 using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Task_03
 {
@@ -31,23 +32,82 @@ namespace Task_03
             int date = int.Parse(Console.ReadLine());
 
             int monthInt;
+            string season;
 
             // calculation
-            switch (monthStr)
+                // set up numeric form of months
+            if (monthStr.ToLower() == "january")
             {
-                case "January": monthInt = 1; break;
-                case "February": monthInt = 2; break;
-                case "March": monthInt = 3; break;
-                case "April": monthInt = 4; break;
-                case "May": monthInt = 5; break;
-                case "June": monthInt = 6; break;
-                case "July": monthInt = 7; break;
-                case "August": monthInt = 8; break;
-                case "September": monthInt = 9; break;
-                case "October": monthInt = 10; break;
-                case "November": monthInt = 11; break;
-                case "December": monthInt = 12; break;
+                monthInt = 100;
             }
+            else if (monthStr.ToLower() == "february")
+            {
+                monthInt = 200;
+            }
+            else if (monthStr.ToLower() == "march")
+            {
+                monthInt = 300;
+            }
+            else if (monthStr.ToLower() == "april")
+            {
+                monthInt = 400;
+            }
+            else if (monthStr.ToLower() == "may")
+            {
+                monthInt = 500;
+            }
+            else if (monthStr.ToLower() == "june")
+            {
+                monthInt = 600;
+            }
+            else if (monthStr.ToLower() == "july")
+            {
+                monthInt = 700;
+            }
+            else if (monthStr.ToLower() == "august")
+            {
+                monthInt = 800;
+            }
+            else if (monthStr.ToLower() == "september")
+            {
+                monthInt = 900;
+            }
+            else if (monthStr.ToLower() == "october")
+            {
+                monthInt = 1000;
+            }
+            else if (monthStr.ToLower() == "november")
+            {
+                monthInt = 1100;
+            }
+            else 
+            {
+                monthInt = 1200;
+            }
+
+            // add monthInt to date variable
+            date += monthInt;
+
+                // set seasons logic
+            if (date >= 320 && date < 621)
+            {
+                season = "Spring";
+            }
+            else if (date >= 621 && date < 922)
+            {
+                season = "Summer";
+            }
+            else if (date >= 922 && date < 1221)
+            {
+                season = "Autumn";
+            }
+            else 
+            {
+                season = "Winter";
+            }
+
+            // output
+            Console.WriteLine(season);
 
         }
     }
