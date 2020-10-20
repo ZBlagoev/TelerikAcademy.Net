@@ -6,7 +6,11 @@ namespace Task_05
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string firstName = "John ";
+            string lastName = "Doe";
+            char explam = '!';
+            string name = firstName + lastName + explam;
+            Console.WriteLine(name);
         }
     }
 }
