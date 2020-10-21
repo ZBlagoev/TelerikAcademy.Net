@@ -32,13 +32,13 @@ namespace Task_04
             // calculation
             change = custAmount - itemPrice;
 
-            int amount1Lev = (int)(change / 1);
-            int amount50st = (int)((change % 1) / 0.5);
-            int amount20st = (int)(((change % 1) % 0.5) / 0.2);
-            int amount10st = (int)((((change % 1) % 0.5) % 0.2) / 0.1);
-            int amount05st = (int)(((((change % 1) % 0.5) % 0.2) % 0.1) / 0.05);
-            int amount02st = (int)((((((change % 1) % 0.5) % 0.2) % 0.1) % 0.05) /0.02);
-            int amount01st = (int)(((((((change % 1) % 0.5) % 0.2) % 0.1) % 0.05) % 0.02) / 0.01);
+            double amount1Lev = (change);
+            double amount50st = ((change % 1) / 0.5);
+            double amount20st = (((change % 1) % 0.5) / 0.2);
+            double amount10st = ((((change % 1) % 0.5) % 0.2) / 0.1);
+            double amount05st = (((((change % 1) % 0.5) % 0.2) % 0.1) / 0.05);
+            double amount02st = ((((((change % 1) % 0.5) % 0.2) % 0.1) % 0.05) /0.02);
+            double amount01st = (((((((change % 1) % 0.5) % 0.2) % 0.1) % 0.05) % 0.02) / 0.01);
 
             // output
                 // 1 lev
@@ -76,6 +76,7 @@ namespace Task_04
             {
                 Console.WriteLine($"{amount01st} x 1 stotinka");
             }
+
 
         }
     }

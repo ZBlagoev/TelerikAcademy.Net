@@ -91,7 +91,7 @@ namespace Task_08
             }
             else
             {
-                medium = thirdN;
+                medium = firstN;
             }
 
             // output
