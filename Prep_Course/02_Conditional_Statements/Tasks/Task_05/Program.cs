@@ -63,12 +63,15 @@ namespace Task_05
                 addMinutesPrice = addMinutes * minuteCost;
                 taxes += addMinutesPrice * 0.2m;
 
-                totalBill += addMinutesPrice + taxes;
+                totalBill += addMinutesPrice;
             }
             else
             {
                 addMinutes = 0;
             }
+
+
+            totalBill += taxes;
 
             // output
             Console.WriteLine($"{addMessages} additional messages for {Math.Round(addMessagesPrice,2)} levas");
