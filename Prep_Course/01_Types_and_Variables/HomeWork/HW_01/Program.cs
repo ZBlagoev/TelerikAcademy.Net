@@ -3,7 +3,6 @@
  */
 
 using System;
-using System.Linq;
 
 namespace HW_01
 {
@@ -12,11 +11,9 @@ namespace HW_01
         static void Main(string[] args)
         {
             // input
-            int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-
-            int first = numbers[0];
-            int second = numbers[1];
-            int third = numbers[2];
+            int first = int.Parse(Console.ReadLine());
+            int second = int.Parse(Console.ReadLine());
+            int third = int.Parse(Console.ReadLine());
 
             // calculation
             int sumOf = first + second + third;

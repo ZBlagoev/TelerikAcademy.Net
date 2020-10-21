@@ -4,7 +4,6 @@
  */
 
 using System;
-using System.Linq;
 
 namespace HW_05
 {
@@ -13,11 +12,9 @@ namespace HW_05
         static void Main(string[] args)
         {
             // input
-            double[] numbers = Console.ReadLine().Split(' ').Select(double.Parse).ToArray();
-
-            double a = numbers[0];
-            double b = numbers[1];
-            double c = numbers[2];
+            double a = double.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
+            double c = double.Parse(Console.ReadLine());
 
             // calculation
             double x1 = (-b + Math.Sqrt(Math.Pow(b, 2) - 4 * a * c)) / (2 * a);

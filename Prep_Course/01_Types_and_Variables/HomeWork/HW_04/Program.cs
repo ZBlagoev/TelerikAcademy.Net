@@ -3,7 +3,6 @@
  */
 
 using System;
-using System.Linq;
 
 namespace HW_04
 {
@@ -12,10 +11,8 @@ namespace HW_04
         static void Main(string[] args)
         {
             // input
-            int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-
-            double first = numbers[0];
-            double second = numbers[1];
+            double first = double.Parse(Console.ReadLine());
+            double second = double.Parse(Console.ReadLine());
 
             // calculation
             double result = (first + second + Math.Abs(first - second)) / 2;
