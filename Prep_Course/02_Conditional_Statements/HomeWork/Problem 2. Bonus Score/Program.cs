@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Conditional_Statements___Homework
+namespace Problem_2._Bonus_Score
 {
     class Program
     {
