@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 8. Digit as Word", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 9. Play with Int, Double and String", "Problem 9. Play with Int, Double and String\Problem 9. Play with Int, Double and String.csproj", "{2FCCBE3C-51D4-4E8C-9AD4-B81053BBD9B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 10. Beer Time", "Problem 10. Beer Time\Problem 10. Beer Time.csproj", "{5C7F208D-D61C-4AB1-B309-E15B64793387}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{2FCCBE3C-51D4-4E8C-9AD4-B81053BBD9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FCCBE3C-51D4-4E8C-9AD4-B81053BBD9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FCCBE3C-51D4-4E8C-9AD4-B81053BBD9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7F208D-D61C-4AB1-B309-E15B64793387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7F208D-D61C-4AB1-B309-E15B64793387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7F208D-D61C-4AB1-B309-E15B64793387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7F208D-D61C-4AB1-B309-E15B64793387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
