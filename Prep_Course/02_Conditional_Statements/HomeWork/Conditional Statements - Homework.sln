@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 2. Bonus Score", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3. Check for a Play Card", "Problem 3. Check for a Play Card\Problem 3. Check for a Play Card.csproj", "{0B6AB33A-4841-4C06-9C67-FF746E55B251}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 4. Multiplication Sign", "Problem 4. Multiplication Sign\Problem 4. Multiplication Sign.csproj", "{C83F95D5-1916-4121-A8AD-07D6FE8DF808}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0B6AB33A-4841-4C06-9C67-FF746E55B251}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B6AB33A-4841-4C06-9C67-FF746E55B251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B6AB33A-4841-4C06-9C67-FF746E55B251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83F95D5-1916-4121-A8AD-07D6FE8DF808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83F95D5-1916-4121-A8AD-07D6FE8DF808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83F95D5-1916-4121-A8AD-07D6FE8DF808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83F95D5-1916-4121-A8AD-07D6FE8DF808}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
