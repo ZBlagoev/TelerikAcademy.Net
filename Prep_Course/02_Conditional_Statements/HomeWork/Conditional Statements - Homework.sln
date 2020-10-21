@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 4. Multiplication S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 5. The Biggest of 3 Numbers", "Problem 5. The Biggest of 3 Numbers\Problem 5. The Biggest of 3 Numbers.csproj", "{63EAA2A2-4938-432A-B4C2-4007D33D6B08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 6. The Biggest of Five Numbers", "Problem 6. The Biggest of Five Numbers\Problem 6. The Biggest of Five Numbers.csproj", "{7714A46A-813F-4338-9F38-000EB6EF787D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{63EAA2A2-4938-432A-B4C2-4007D33D6B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63EAA2A2-4938-432A-B4C2-4007D33D6B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63EAA2A2-4938-432A-B4C2-4007D33D6B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7714A46A-813F-4338-9F38-000EB6EF787D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7714A46A-813F-4338-9F38-000EB6EF787D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7714A46A-813F-4338-9F38-000EB6EF787D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7714A46A-813F-4338-9F38-000EB6EF787D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
