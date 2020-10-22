@@ -10,14 +10,19 @@ using System;
 
 namespace Problem_7._Sort_3_Numbers_with_Nested_ifs
 {
-    class Program
+    class Problem_07
     {
         static void Main(string[] args)
         {
             // input
-            int firstN = int.Parse(Console.ReadLine());
-            int secondN = int.Parse(Console.ReadLine());
-            int thirdN = int.Parse(Console.ReadLine());
+            Console.WriteLine("Problem 7. Sort 3 Numbers with Nested ifs");
+
+            Console.Write("a: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("b: ");
+            int b = int.Parse(Console.ReadLine());
+            Console.Write("c: ");
+            int c = int.Parse(Console.ReadLine());
 
             int small;
             int medium;
@@ -25,69 +30,69 @@ namespace Problem_7._Sort_3_Numbers_with_Nested_ifs
 
             // calculation
             //big
-            if (firstN > secondN)
+            if (a > b)
             {
-                if (firstN > thirdN)
+                if (a > c)
                 {
-                    big = firstN;
+                    big = a;
                 }
                 else
                 {
-                    big = thirdN;
+                    big = c;
                 }
             }
             else
             {
-                if (secondN > thirdN)
+                if (b > c)
                 {
-                    big = secondN;
+                    big = b;
                 }
                 else
                 {
-                    big = thirdN;
+                    big = c;
                 }
             }
 
             // small
-            if (firstN < secondN)
+            if (a < b)
             {
-                if (firstN < thirdN)
+                if (a < c)
                 {
-                    small = firstN;
+                    small = a;
                 }
                 else
                 {
-                    small = thirdN;
+                    small = c;
                 }
             }
             else
             {
-                if (secondN < thirdN)
+                if (b < c)
                 {
-                    small = secondN;
+                    small = b;
                 }
                 else
                 {
-                    small = thirdN;
+                    small = c;
                 }
             }
 
             // medium
-            if ((big == firstN && small == secondN) || (big == secondN && small == firstN))
+            if ((big == a && small == b) || (big == b && small == a))
             {
-                medium = thirdN;
+                medium = c;
             }
-            else if ((big == firstN && small == thirdN) || (big == thirdN && small == firstN))
+            else if ((big == a && small == c) || (big == c && small == a))
             {
-                medium = secondN;
+                medium = b;
             }
             else
             {
-                medium = firstN;
+                medium = a;
             }
 
             // output
-            Console.WriteLine($"{big} {medium} {small}");
+            Console.WriteLine($"result: {big} {medium} {small}");
         }
     }
 }

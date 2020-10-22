@@ -9,14 +9,18 @@ using System;
 
 namespace Problem_3._Check_for_a_Play_Card
 {
-    class Program
+    class Problem_03
     {
         static void Main(string[] args)
         {
             // input 
+            Console.WriteLine("Problem 3. Check for a Play Card");
+
+            Console.Write("character: ");
             string cardFace = Console.ReadLine();
 
             // output
+            Console.Write("Valid card sign? - ");
             switch (cardFace)
             {
                 case "2": Console.WriteLine("yes"); break;

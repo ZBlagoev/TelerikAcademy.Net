@@ -10,11 +10,14 @@ using System;
 
 namespace Problem_9._Play_with_Int__Double_and_String
 {
-    class Program
+    class Problem_09
     {
         static void Main(string[] args)
         {
             // input
+            Console.WriteLine("Problem 9. Play with Int, Double and String");
+
+            Console.WriteLine("Available types: ");
             Console.WriteLine("1 --> int");
             Console.WriteLine("2 --> double");
             Console.WriteLine("3 --> string");
@@ -27,17 +30,17 @@ namespace Problem_9._Play_with_Int__Double_and_String
                 case "1":
                     Console.Write("Please choose an int: ");
                     int choiceI = int.Parse(Console.ReadLine());
-                    Console.WriteLine(choiceI + 1);
+                    Console.WriteLine($"result: {choiceI + 1}");
                     break;
                 case "2":
                     Console.Write("Please choose a double: ");
                     double choiceD = double.Parse(Console.ReadLine());
-                    Console.WriteLine(choiceD + 1.0);
+                    Console.WriteLine($"result: {choiceD + 1.0}");
                     break;
                 case "3":
                     Console.Write("Please choose a string: ");
                     string choiceS = Console.ReadLine();
-                    Console.WriteLine(choiceS + "*");
+                    Console.WriteLine($"result: {choiceS}*");
                     break;
             }
 

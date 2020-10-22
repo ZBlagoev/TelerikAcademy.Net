@@ -7,13 +7,18 @@ using System;
 
 namespace Problem_5._The_Biggest_of_3_Numbers
 {
-    class Program
+    class Problem_05
     {
         static void Main(string[] args)
         {
             // input
+            Console.WriteLine("Problem 5. The Biggest of 3 Numbers");
+
+            Console.Write("a: ");
             double a = double.Parse(Console.ReadLine());
+            Console.Write("b: ");
             double b = double.Parse(Console.ReadLine());
+            Console.Write("c: ");
             double c = double.Parse(Console.ReadLine());
 
             double biggest;
@@ -40,7 +45,7 @@ namespace Problem_5._The_Biggest_of_3_Numbers
             }
 
             // output
-            Console.WriteLine(biggest);
+            Console.WriteLine($"biggest: {biggest}");
 
         }
     }

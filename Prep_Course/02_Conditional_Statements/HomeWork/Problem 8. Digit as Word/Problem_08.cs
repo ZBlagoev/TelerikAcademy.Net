@@ -9,45 +9,48 @@ using System;
 
 namespace Problem_8._Digit_as_Word
 {
-    class Program
+    class Problem_08
     {
         static void Main(string[] args)
         {
             // input
+            Console.WriteLine("Problem 8. Digit as Word");
+
+            Console.Write("d: ");
             string digit = Console.ReadLine();
 
             // output
             switch (digit)
             {
                 case "1":
-                    Console.WriteLine("one");
+                    Console.WriteLine("result: one");
                     break;
                 case "2":
-                    Console.WriteLine("two");
+                    Console.WriteLine("result: two");
                     break;
                 case "3":
-                    Console.WriteLine("three");
+                    Console.WriteLine("result: three");
                     break;
                 case "4":
-                    Console.WriteLine("four");
+                    Console.WriteLine("result: four");
                     break;
                 case "5":
-                    Console.WriteLine("five");
+                    Console.WriteLine("result: five");
                     break;
                 case "6":
-                    Console.WriteLine("six");
+                    Console.WriteLine("result: six");
                     break;
                 case "7":
-                    Console.WriteLine("seven");
+                    Console.WriteLine("result: seven");
                     break;
                 case "8":
-                    Console.WriteLine("eight");
+                    Console.WriteLine("result: eight");
                     break;
                 case "9":
-                    Console.WriteLine("nine");
+                    Console.WriteLine("result: nine");
                     break;
                 case "0":
-                    Console.WriteLine("zero");
+                    Console.WriteLine("result: zero");
                     break;
                 default:
                     Console.WriteLine("not a digit");

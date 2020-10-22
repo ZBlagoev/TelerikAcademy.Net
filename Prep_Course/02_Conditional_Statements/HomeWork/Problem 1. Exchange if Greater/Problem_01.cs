@@ -9,12 +9,16 @@ using System;
 
 namespace Problem_1._Exchange_if_Greater
 {
-    class Program
+    class Problem_01
     {
         static void Main(string[] args)
         {
             // input 
+            Console.WriteLine("Problem 1. Exchange if Greater");
+
+            Console.Write("a: ");
             double a = double.Parse(Console.ReadLine());
+            Console.Write("b: ");
             double b = double.Parse(Console.ReadLine());
             double temp;
 
@@ -27,7 +31,7 @@ namespace Problem_1._Exchange_if_Greater
             }
 
             // output
-            Console.WriteLine($"{a} {b}");
+            Console.WriteLine($"result: {a} {b}");
 
         }
     }

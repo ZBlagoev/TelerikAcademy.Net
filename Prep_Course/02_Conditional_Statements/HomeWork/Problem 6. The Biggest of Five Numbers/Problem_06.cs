@@ -8,47 +8,54 @@ using System;
 
 namespace Problem_6._The_Biggest_of_Five_Numbers
 {
-    class Program
+    class Problem_06
     {
         static void Main(string[] args)
         {
             // input
+            Console.WriteLine("Problem 6. The Biggest of Five Numbers");
+
+            Console.Write("a: ");
             double a = double.Parse(Console.ReadLine());
+            Console.Write("b: ");
             double b = double.Parse(Console.ReadLine());
+            Console.Write("c: ");
             double c = double.Parse(Console.ReadLine());
+            Console.Write("d: ");
             double d = double.Parse(Console.ReadLine());
+            Console.Write("e: ");
             double e = double.Parse(Console.ReadLine());
 
-            double biggestN = double.MinValue;
+            double biggest = double.MinValue;
 
             // calculation
-            if (biggestN < a)
+            if (biggest < a)
             {
-                biggestN = a;
+                biggest = a;
             }
 
-            if (biggestN < b)
+            if (biggest < b)
             {
-                biggestN = b;
+                biggest = b;
             }
 
-            if (biggestN < c)
+            if (biggest < c)
             {
-                biggestN = c;
+                biggest = c;
             }
 
-            if (biggestN < d)
+            if (biggest < d)
             {
-                biggestN = d;
+                biggest = d;
             }
 
-            if (biggestN < e)
+            if (biggest < e)
             {
-                biggestN = e;
+                biggest = e;
             }
 
             // output
-            Console.WriteLine(biggestN);
+            Console.WriteLine($"biggest: {biggest}");
         }
     }
 }
