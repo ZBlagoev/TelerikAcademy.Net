@@ -3,25 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 01. Exchange if Greater", "Problem 1. Exchange if Greater\Problem 01. Exchange if Greater.csproj", "{6B71A4FB-6189-46C6-A330-AD1BA94BE0F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 01. Exchange if Greater", "Problem 1. Exchange if Greater\Problem 01. Exchange if Greater.csproj", "{6B71A4FB-6189-46C6-A330-AD1BA94BE0F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 02. Bonus Score", "Problem 2. Bonus Score\Problem 02. Bonus Score.csproj", "{41199637-2A94-4AA0-831F-243FF1708254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 02. Bonus Score", "Problem 2. Bonus Score\Problem 02. Bonus Score.csproj", "{41199637-2A94-4AA0-831F-243FF1708254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 03. Check for a Play Card", "Problem 3. Check for a Play Card\Problem 03. Check for a Play Card.csproj", "{0B6AB33A-4841-4C06-9C67-FF746E55B251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 03. Check for a Play Card", "Problem 3. Check for a Play Card\Problem 03. Check for a Play Card.csproj", "{0B6AB33A-4841-4C06-9C67-FF746E55B251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 04. Multiplication Sign", "Problem 4. Multiplication Sign\Problem 04. Multiplication Sign.csproj", "{C83F95D5-1916-4121-A8AD-07D6FE8DF808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 04. Multiplication Sign", "Problem 4. Multiplication Sign\Problem 04. Multiplication Sign.csproj", "{C83F95D5-1916-4121-A8AD-07D6FE8DF808}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 05. The Biggest of 3 Numbers", "Problem 5. The Biggest of 3 Numbers\Problem 05. The Biggest of 3 Numbers.csproj", "{63EAA2A2-4938-432A-B4C2-4007D33D6B08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 05. The Biggest of 3 Numbers", "Problem 5. The Biggest of 3 Numbers\Problem 05. The Biggest of 3 Numbers.csproj", "{63EAA2A2-4938-432A-B4C2-4007D33D6B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 06. The Biggest of Five Numbers", "Problem 6. The Biggest of Five Numbers\Problem 06. The Biggest of Five Numbers.csproj", "{7714A46A-813F-4338-9F38-000EB6EF787D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 06. The Biggest of Five Numbers", "Problem 6. The Biggest of Five Numbers\Problem 06. The Biggest of Five Numbers.csproj", "{7714A46A-813F-4338-9F38-000EB6EF787D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 07. Sort 3 Numbers with Nested ifs", "Problem 7. Sort 3 Numbers with Nested ifs\Problem 07. Sort 3 Numbers with Nested ifs.csproj", "{D6226444-18CC-4210-A706-5B4EC110C466}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 07. Sort 3 Numbers with Nested ifs", "Problem 7. Sort 3 Numbers with Nested ifs\Problem 07. Sort 3 Numbers with Nested ifs.csproj", "{D6226444-18CC-4210-A706-5B4EC110C466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 08. Digit as Word", "Problem 8. Digit as Word\Problem 08. Digit as Word.csproj", "{CFEF39F5-93C4-43BC-9079-DAAE9A937BB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 08. Digit as Word", "Problem 8. Digit as Word\Problem 08. Digit as Word.csproj", "{CFEF39F5-93C4-43BC-9079-DAAE9A937BB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 09. Play with Int, Double and String", "Problem 9. Play with Int, Double and String\Problem 09. Play with Int, Double and String.csproj", "{2FCCBE3C-51D4-4E8C-9AD4-B81053BBD9B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 09. Play with Int, Double and String", "Problem 9. Play with Int, Double and String\Problem 09. Play with Int, Double and String.csproj", "{2FCCBE3C-51D4-4E8C-9AD4-B81053BBD9B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 10. Beer Time", "Problem 10. Beer Time\Problem 10. Beer Time.csproj", "{5C7F208D-D61C-4AB1-B309-E15B64793387}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 10. Beer Time", "Problem 10. Beer Time\Problem 10. Beer Time.csproj", "{5C7F208D-D61C-4AB1-B309-E15B64793387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 11. Number as Words", "Problem 11. Number as Words\Problem 11. Number as Words.csproj", "{B43C6442-5AD3-4537-ABAD-58F41265DFDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{5C7F208D-D61C-4AB1-B309-E15B64793387}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C7F208D-D61C-4AB1-B309-E15B64793387}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C7F208D-D61C-4AB1-B309-E15B64793387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43C6442-5AD3-4537-ABAD-58F41265DFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43C6442-5AD3-4537-ABAD-58F41265DFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43C6442-5AD3-4537-ABAD-58F41265DFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43C6442-5AD3-4537-ABAD-58F41265DFDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
