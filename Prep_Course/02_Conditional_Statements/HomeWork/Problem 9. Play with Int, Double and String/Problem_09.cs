@@ -21,6 +21,7 @@ namespace Problem_9._Play_with_Int__Double_and_String
             Console.WriteLine("1 --> int");
             Console.WriteLine("2 --> double");
             Console.WriteLine("3 --> string");
+
             Console.Write("Please choose a type: ");
             string choiceOne = Console.ReadLine();
                       
