@@ -8,6 +8,19 @@ or invalid time if the time cannot be parsed.
 Note: You may need to learn how to parse dates and times.
 */
 
+/*
+if (DateTime.TryParse(inputString, out dDate))
+{
+    String.Format("{0:d/MM/yyyy}", dDate); 
+}
+else
+{
+    Console.WriteLine("Invalid"); // <-- Control flow goes here
+}
+*/
+
+
+
 using System;
 using System.Globalization;
 
@@ -21,27 +34,37 @@ namespace Problem_10._Beer_Time
             Console.WriteLine("Problem 10. Beer time");
 
             Console.Write("time: ");
-            var time = Convert.ToDateTime(Console.ReadLine());
+            string time = Console.ReadLine();
 
-            // doesn't work for some reason
-            //DateTime time = DateTime.ParseExact(Console.ReadLine(), "HH:mm tt", CultureInfo.InvariantCulture);
-
+            
             string partyZeit;
 
+            DateTime dDate;
+            string format = "hh:mm tt";
+
+
             // calculation
-            if ((time >= Convert.ToDateTime("1:00 PM")) || (time <= Convert.ToDateTime("3:00 AM")))
+            if ((DateTime.TryParse(time, out dDate)) 
+                && 
+                (DateTime.TryParseExact(time, format, System.Globalization.CultureInfo.InvariantCulture,
+                DateTimeStyles.None, out dDate))) // second part of that if ensures input is in AM/PM form
             {
-                partyZeit = "beer time";
+                if ((Convert.ToDateTime(time) >= Convert.ToDateTime("1:00 PM")) || (Convert.ToDateTime(time) <= Convert.ToDateTime("3:00 AM")))
+                {
+                    partyZeit = "beer time";
+                }
+                else 
+                {
+                    partyZeit = "non-beer time";
+                }
             }
             else
             {
-                partyZeit = "non-beer time";
+                partyZeit = "invalid time";
             }
 
-            
             // output
             Console.WriteLine(partyZeit);
-            Console.WriteLine(time);
         }
     }
 }

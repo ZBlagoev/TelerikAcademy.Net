@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 09. Play with Int, 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 10. Beer Time", "Problem 10. Beer Time\Problem 10. Beer Time.csproj", "{5C7F208D-D61C-4AB1-B309-E15B64793387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 11. Number as Words", "Problem 11. Number as Words\Problem 11. Number as Words.csproj", "{B43C6442-5AD3-4537-ABAD-58F41265DFDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 11. Number as Words", "Problem 11. Number as Words\Problem 11. Number as Words.csproj", "{B43C6442-5AD3-4537-ABAD-58F41265DFDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{E60C60F7-C84A-4F2C-A955-53F240857A73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{B43C6442-5AD3-4537-ABAD-58F41265DFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B43C6442-5AD3-4537-ABAD-58F41265DFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B43C6442-5AD3-4537-ABAD-58F41265DFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E60C60F7-C84A-4F2C-A955-53F240857A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60C60F7-C84A-4F2C-A955-53F240857A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60C60F7-C84A-4F2C-A955-53F240857A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60C60F7-C84A-4F2C-A955-53F240857A73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
