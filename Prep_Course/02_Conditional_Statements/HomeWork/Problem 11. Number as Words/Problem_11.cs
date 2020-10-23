@@ -71,46 +71,29 @@ namespace Problem_11._Number_as_Words
             string result = "";
 
             // calculation **********************************************
-                // employ logic for converting digits to words
-            if (hundreds > 0) // hundreds present
+            
+                // check only for hundreds
+            if (hundreds > 0) 
             {
                 result += $"{listOnes[hundreds]} hundred and ";
-
-                if (tenOne < 10) // only ones present
-                {
-                    result += $"{listOnes[ones]}";
-                }
-                else if ((tenOne > 10) && (tenOne < 20)) // only teens present
-                {
-                    result += $"{listTeens[(tenOne - 10)]}";
-                }
-                else if ((tenOne >= 20) && (ones == 0)) // only tens present
-                {
-                    result += $"{listTens[(tens - 2)]}"; 
-                }
-                else /*if ((tenOne >= 20) && (ones > 0))*/  // tens and ones present
-                {
-                    result += $"{listTens[(tens - 2)]} {listOnes[ones]}";
-                }
             }
-            else // hundreds not present
+
+                // check for tens and ones
+            if (tenOne < 10) // only ones present
             {
-                if (tenOne < 10) // only ones present
-                {
-                    result += $"{listOnes[ones]}";
-                }
-                else if ((tenOne > 10) && (tenOne < 20)) // only teens present
-                {
-                    result += $"{listTeens[(tenOne - 10)]}";
-                }
-                else if ((tenOne >= 20) && (ones == 0)) // only tens present
-                {
-                    result += $"{listTens[(tens - 2)]}";
-                }
-                else /*if ((tenOne >= 20) && (ones > 0))*/ // tens and ones present
-                {
-                    result += $"{listTens[(tens - 2)]} {listOnes[ones]}";
-                }
+                result += $"{listOnes[ones]}";
+            }
+            else if ((tenOne > 10) && (tenOne < 20)) // only teens present
+            {
+                result += $"{listTeens[(tenOne - 10)]}";
+            }
+            else if ((tenOne >= 20) && (ones == 0)) // only tens present
+            {
+                result += $"{listTens[(tens - 2)]}"; 
+            }
+            else /*if ((tenOne >= 20) && (ones > 0))*/  // tens and ones present
+            {
+                result += $"{listTens[(tens - 2)]} {listOnes[ones]}";
             }
 
                 // capitalize first letter
