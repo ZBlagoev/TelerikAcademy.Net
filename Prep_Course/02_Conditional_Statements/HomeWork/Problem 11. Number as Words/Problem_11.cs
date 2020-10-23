@@ -43,28 +43,16 @@ namespace Problem_11._Number_as_Words
             string[] listTeens = { "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
             string[] listTens = { "twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety" };
 
-                // digit for hundreds
+                // digit of the hundreds
             int hundreds = (int)(number / 100 % 10);
-            if (hundreds < 0)
-            {
-                hundreds = 0;
-            }
 
-                // digit for tens
+                // digit of the tens
             int tens = (int)(number / 10 % 10);
-            if (tens < 0)
-            {
-                tens = 0;
-            }
 
-                // digit for ones
+                // digit of the ones
             int ones = (int)(number % 10);
-            if (ones < 0)
-            {
-                ones = 0;
-            }
 
-                // last 2 digits
+                // last 2 digits (tens and ones)
             int tenOne = tens * 10 + ones;
 
                 // string to keep the result
