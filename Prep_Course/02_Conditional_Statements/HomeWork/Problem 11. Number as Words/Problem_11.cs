@@ -30,30 +30,90 @@ namespace Problem_11._Number_as_Words
     {
         static void Main(string[] args)
         {
-            // input 
+            // input **********************************************
+            Console.WriteLine("Problem 11. Numbers as Words");
+
+            Console.Write("number: ");
+
+                // input number
             int number = int.Parse(Console.ReadLine());
 
-            string[] listof = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
-            
+                // strings to be used in the number-words translation
+            string[] listOnes = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+            string[] listTeens = { "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
+            string[] listTens = { "twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety" };
 
+            // digit for hundreds
             int hundreds = (int)(number / 100 % 10);
-            int tens = (int)(number / 10 % 10);
-            int ones = (int)(number % 10);
-
-            Console.WriteLine(listof[hundreds]);
-
-            /*
-            // calculation
-            if (hundreds > 0)
+            if (hundreds < 0)
             {
-                listof[3];
+                hundreds = 0;
             }
-            */
+
+            // digit for tens
+            int tens = (int)(number / 10 % 10);
+            if (tens < 0)
+            {
+                tens = 0;
+            }
+
+            // digit for ones
+            int ones = (int)(number % 10);
+            if (ones < 0)
+            {
+                ones = 0;
+            }
+
+            // last 2 digits
+            int tenOne = tens * 10 + ones;
+
+            // string to keep the result
+            string result = "";
+
+            // calculation **********************************************
+            if (hundreds > 0) // hundreds present
+            {
+                result += $"{listOnes[hundreds]} hundred and ";
+
+                if (tenOne < 10) // only ones present
+                {
+                    result += $"{listOnes[ones]}";
+                }
+                else if ((tenOne > 10) && (tenOne < 20)) // only teens present
+                {
+                    result += $"{listTeens[(tenOne - 10)]}";
+                }
+                else if ((tenOne >= 20) && (ones == 0)) // only tens present
+                {
+                    result += $"{listTens[(tens - 2)]}"; 
+                }
+                else /*if ((tenOne >= 20) && (ones > 0))*/  // tens and ones present
+                {
+                    result += $"{listTens[(tens - 2)]} {listOnes[ones]}";
+                }
+            }
+            else // hundreds not present
+            {
+                if (tenOne < 10) // only ones present
+                {
+                    result += $"{listOnes[ones]}";
+                }
+                else if ((tenOne > 10) && (tenOne < 20)) // only teens present
+                {
+                    result += $"{listTeens[(tenOne - 10)]}";
+                }
+                else if ((tenOne >= 20) && (ones == 0)) // only tens present
+                {
+                    result += $"{listTens[(tens - 2)]}";
+                }
+                else /*if ((tenOne >= 20) && (ones > 0))*/ // tens and ones present
+                {
+                    result += $"{listTens[(tens - 2)]} {listOnes[ones]}";
+                }
+            }
 
             // output
-            Console.WriteLine(hundreds);
-            Console.WriteLine(tens);
-            Console.WriteLine(ones);
+            Console.WriteLine($"result: {result}");
         }
     }
 }
