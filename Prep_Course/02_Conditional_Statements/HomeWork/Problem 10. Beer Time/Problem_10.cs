@@ -30,20 +30,19 @@ namespace Problem_10._Beer_Time
     {
         static void Main(string[] args)
         {
-            // input
+            // input **********************************************
             Console.WriteLine("Problem 10. Beer time");
 
             Console.Write("time: ");
             string time = Console.ReadLine();
 
-            
             string partyZeit;
 
+                // variables to test if input is in correct datetime format
             DateTime dDate;
             string format = "h:mm tt";
 
-
-            // calculation
+            // calculation **********************************************
             if (DateTime.TryParseExact(time, format, System.Globalization.CultureInfo.InvariantCulture,
                 DateTimeStyles.None, out dDate)) // ensures input is in AM/PM form only (revert for previous commit for every datetime format)
             {
@@ -61,7 +60,7 @@ namespace Problem_10._Beer_Time
                 partyZeit = "invalid time";
             }
 
-            // output
+            // output **********************************************
             Console.WriteLine(partyZeit);
         }
     }
