@@ -71,6 +71,7 @@ namespace Problem_11._Number_as_Words
             string result = "";
 
             // calculation **********************************************
+                // employ logic for converting digits to words
             if (hundreds > 0) // hundreds present
             {
                 result += $"{listOnes[hundreds]} hundred and ";
@@ -111,6 +112,9 @@ namespace Problem_11._Number_as_Words
                     result += $"{listTens[(tens - 2)]} {listOnes[ones]}";
                 }
             }
+
+            // capitalize first letter
+            result = char.ToUpper(result[0]) + result.Substring(1);
 
             // output
             Console.WriteLine($"result: {result}");
