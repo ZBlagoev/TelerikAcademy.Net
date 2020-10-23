@@ -40,34 +40,34 @@ namespace Problem_11._Number_as_Words
 
                 // strings to be used in the number-words translation
             string[] listOnes = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
-            string[] listTeens = { "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
+            string[] listTeens = { "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
             string[] listTens = { "twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety" };
 
-            // digit for hundreds
+                // digit for hundreds
             int hundreds = (int)(number / 100 % 10);
             if (hundreds < 0)
             {
                 hundreds = 0;
             }
 
-            // digit for tens
+                // digit for tens
             int tens = (int)(number / 10 % 10);
             if (tens < 0)
             {
                 tens = 0;
             }
 
-            // digit for ones
+                // digit for ones
             int ones = (int)(number % 10);
             if (ones < 0)
             {
                 ones = 0;
             }
 
-            // last 2 digits
+                // last 2 digits
             int tenOne = tens * 10 + ones;
 
-            // string to keep the result
+                // string to keep the result
             string result = "";
 
             // calculation **********************************************
