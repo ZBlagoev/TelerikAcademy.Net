@@ -113,10 +113,10 @@ namespace Problem_11._Number_as_Words
                 }
             }
 
-            // capitalize first letter
+                // capitalize first letter
             result = char.ToUpper(result[0]) + result.Substring(1);
 
-            // output
+            // output **********************************************
             Console.WriteLine($"result: {result}");
         }
     }
