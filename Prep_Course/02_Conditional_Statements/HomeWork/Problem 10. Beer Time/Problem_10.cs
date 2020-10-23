@@ -40,14 +40,12 @@ namespace Problem_10._Beer_Time
             string partyZeit;
 
             DateTime dDate;
-            string format = "hh:mm tt";
+            string format = "h:mm tt";
 
 
             // calculation
-            if ((DateTime.TryParse(time, out dDate)) 
-                && 
-                (DateTime.TryParseExact(time, format, System.Globalization.CultureInfo.InvariantCulture,
-                DateTimeStyles.None, out dDate))) // second part of that if ensures input is in AM/PM form
+            if (DateTime.TryParseExact(time, format, System.Globalization.CultureInfo.InvariantCulture,
+                DateTimeStyles.None, out dDate)) // second part of that if ensures input is in AM/PM form
             {
                 if ((Convert.ToDateTime(time) >= Convert.ToDateTime("1:00 PM")) || (Convert.ToDateTime(time) <= Convert.ToDateTime("3:00 AM")))
                 {
