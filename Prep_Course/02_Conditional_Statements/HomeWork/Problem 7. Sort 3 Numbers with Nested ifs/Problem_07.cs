@@ -14,7 +14,7 @@ namespace Problem_7._Sort_3_Numbers_with_Nested_ifs
     {
         static void Main(string[] args)
         {
-            // input
+            // input **********************************************
             Console.WriteLine("Problem 7. Sort 3 Numbers with Nested ifs");
 
             Console.Write("a: ");
@@ -28,8 +28,8 @@ namespace Problem_7._Sort_3_Numbers_with_Nested_ifs
             int medium;
             int big;
 
-            // calculation
-            //big
+            // calculation **********************************************
+                //big
             if (a > b)
             {
                 if (a > c)
@@ -53,7 +53,7 @@ namespace Problem_7._Sort_3_Numbers_with_Nested_ifs
                 }
             }
 
-            // small
+                // small
             if (a < b)
             {
                 if (a < c)
@@ -77,7 +77,7 @@ namespace Problem_7._Sort_3_Numbers_with_Nested_ifs
                 }
             }
 
-            // medium
+                // medium
             if ((big == a && small == b) || (big == b && small == a))
             {
                 medium = c;
@@ -91,7 +91,7 @@ namespace Problem_7._Sort_3_Numbers_with_Nested_ifs
                 medium = a;
             }
 
-            // output
+            // output **********************************************
             Console.WriteLine($"result: {big} {medium} {small}");
         }
     }

@@ -13,13 +13,13 @@ namespace Problem_8._Digit_as_Word
     {
         static void Main(string[] args)
         {
-            // input
+            // input **********************************************
             Console.WriteLine("Problem 8. Digit as Word");
 
             Console.Write("d: ");
             string digit = Console.ReadLine();
 
-            // output
+            // output **********************************************
             switch (digit)
             {
                 case "1":

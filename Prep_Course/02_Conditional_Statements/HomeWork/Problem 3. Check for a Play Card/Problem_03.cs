@@ -13,13 +13,13 @@ namespace Problem_3._Check_for_a_Play_Card
     {
         static void Main(string[] args)
         {
-            // input 
+            // input **********************************************
             Console.WriteLine("Problem 3. Check for a Play Card");
 
             Console.Write("character: ");
             string cardFace = Console.ReadLine();
 
-            // output
+            // output **********************************************
             Console.Write("Valid card sign? - ");
             switch (cardFace)
             {

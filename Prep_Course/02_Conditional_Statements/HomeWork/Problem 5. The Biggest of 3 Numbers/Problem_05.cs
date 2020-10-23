@@ -11,7 +11,7 @@ namespace Problem_5._The_Biggest_of_3_Numbers
     {
         static void Main(string[] args)
         {
-            // input
+            // input **********************************************
             Console.WriteLine("Problem 5. The Biggest of 3 Numbers");
 
             Console.Write("a: ");
@@ -23,7 +23,7 @@ namespace Problem_5._The_Biggest_of_3_Numbers
 
             double biggest;
 
-            // calculation
+            // calculation **********************************************
             if (a > b)
             {
                 if (a > c)
@@ -44,7 +44,7 @@ namespace Problem_5._The_Biggest_of_3_Numbers
                 biggest = c;
             }
 
-            // output
+            // output **********************************************
             Console.WriteLine($"biggest: {biggest}");
 
         }

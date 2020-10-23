@@ -13,7 +13,7 @@ namespace Problem_1._Exchange_if_Greater
     {
         static void Main(string[] args)
         {
-            // input 
+            // input **********************************************
             Console.WriteLine("Problem 1. Exchange if Greater");
 
             Console.Write("a: ");
@@ -22,7 +22,7 @@ namespace Problem_1._Exchange_if_Greater
             double b = double.Parse(Console.ReadLine());
             double temp;
 
-            // calculation
+            // calculation **********************************************
             if (a > b)
             {
                 temp = a;
@@ -30,7 +30,7 @@ namespace Problem_1._Exchange_if_Greater
                 b = temp;
             }
 
-            // output
+            // output **********************************************
             Console.WriteLine($"result: {a} {b}");
 
         }

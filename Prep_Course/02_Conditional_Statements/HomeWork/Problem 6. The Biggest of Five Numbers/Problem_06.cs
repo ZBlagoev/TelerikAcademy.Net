@@ -12,7 +12,7 @@ namespace Problem_6._The_Biggest_of_Five_Numbers
     {
         static void Main(string[] args)
         {
-            // input
+            // input **********************************************
             Console.WriteLine("Problem 6. The Biggest of Five Numbers");
 
             Console.Write("a: ");
@@ -28,7 +28,7 @@ namespace Problem_6._The_Biggest_of_Five_Numbers
 
             double biggest = double.MinValue;
 
-            // calculation
+            // calculation **********************************************
             if (biggest < a)
             {
                 biggest = a;
@@ -54,7 +54,7 @@ namespace Problem_6._The_Biggest_of_Five_Numbers
                 biggest = e;
             }
 
-            // output
+            // output **********************************************
             Console.WriteLine($"biggest: {biggest}");
         }
     }

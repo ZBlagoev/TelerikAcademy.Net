@@ -15,13 +15,13 @@ namespace Problem_2._Bonus_Score
     {
         static void Main(string[] args)
         {
-            // input
+            // input **********************************************
             Console.WriteLine("Problem 2. Bonus Score");
 
             Console.Write("score: ");
             double score = double.Parse(Console.ReadLine());
 
-            // output
+            // output **********************************************
             switch (score)
             {
                 case 1: Console.WriteLine($"result: {score * 10}"); break;

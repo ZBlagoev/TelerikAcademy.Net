@@ -14,7 +14,7 @@ namespace Problem_9._Play_with_Int__Double_and_String
     {
         static void Main(string[] args)
         {
-            // input
+            // input **********************************************
             Console.WriteLine("Problem 9. Play with Int, Double and String");
 
             Console.WriteLine("Available types: ");
@@ -24,8 +24,8 @@ namespace Problem_9._Play_with_Int__Double_and_String
 
             Console.Write("Please choose a type: ");
             string choiceOne = Console.ReadLine();
-                      
-            // output
+
+            // output **********************************************
             switch (choiceOne)
             {
                 case "1":

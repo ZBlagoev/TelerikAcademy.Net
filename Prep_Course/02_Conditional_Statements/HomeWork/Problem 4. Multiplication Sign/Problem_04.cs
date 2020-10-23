@@ -12,7 +12,7 @@ namespace Problem_4._Multiplication_Sign
     {
         static void Main(string[] args)
         {
-            // input
+            // input **********************************************
             Console.WriteLine("Problem 4. Multiplication Sign");
 
             Console.Write("a: ");
@@ -24,7 +24,7 @@ namespace Problem_4._Multiplication_Sign
 
             string result;
 
-            // calculation
+            // calculation **********************************************
             if ((a < 0) || (b < 0) || (c < 0) || ((a < 0) && (b < 0) && (c < 0)))
             {
                 result = "result: -";
@@ -38,7 +38,7 @@ namespace Problem_4._Multiplication_Sign
                 result = "result: +";
             }
 
-            // output
+            // output **********************************************
             Console.WriteLine(result);
 
         }
