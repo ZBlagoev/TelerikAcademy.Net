@@ -71,7 +71,7 @@ namespace Problem_11._Number_as_Words
             {
                 result += $"{listOnes[ones]}";
             }
-            else if ((tenOne > 10) && (tenOne < 20)) // only teens present
+            else if ((tenOne >= 10) && (tenOne < 20)) // only teens present
             {
                 result += $"{listTeens[(tenOne - 10)]}";
             }
@@ -89,6 +89,7 @@ namespace Problem_11._Number_as_Words
 
             // output **********************************************
             Console.WriteLine($"result: {result}");
+
         }
     }
 }
