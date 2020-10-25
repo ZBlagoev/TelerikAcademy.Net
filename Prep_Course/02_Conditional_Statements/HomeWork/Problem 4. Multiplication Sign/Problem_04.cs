@@ -22,10 +22,10 @@ namespace Problem_4._Multiplication_Sign
             Console.Write("c: ");
             double c = double.Parse(Console.ReadLine());
 
-            string result = "";
+            string result;
 
             // calculation **********************************************
-            bool isOneNegative = (a < 0) ^ (b < 0) ^ (c < 0);
+            bool isNegative = (a < 0) ^ (b < 0) ^ (c < 0);
             bool areAllNegative = (a < 0) && (b < 0) && (c < 0);
             bool isZero = (a == 0.0) || (b == 0.0) || (c == 0.0);
 
@@ -33,7 +33,7 @@ namespace Problem_4._Multiplication_Sign
             {
                 result = "result: 0";
             }
-            else if (isOneNegative || areAllNegative)
+            else if (isNegative || areAllNegative)
             {
                 result = "result: -";
             }
@@ -41,7 +41,6 @@ namespace Problem_4._Multiplication_Sign
             {
                 result = "result: +";
             }
-
 
             // output **********************************************
             Console.WriteLine(result);
