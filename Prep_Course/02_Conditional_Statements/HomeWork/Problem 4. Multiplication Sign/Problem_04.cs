@@ -25,7 +25,10 @@ namespace Problem_4._Multiplication_Sign
             string result;
 
             // calculation **********************************************
-            if ((a < 0) || (b < 0) || (c < 0) || ((a < 0) && (b < 0) && (c < 0)))
+            bool isOneNegative = (a < 0) ^ (b < 0) ^ (c < 0);
+            bool areAllNegative = (a < 0) && (b < 0) && (c < 0);
+
+            if (isOneNegative || areAllNegative)
             {
                 result = "result: -";
             }

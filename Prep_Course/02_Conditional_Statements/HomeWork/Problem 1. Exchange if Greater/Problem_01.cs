@@ -23,7 +23,9 @@ namespace Problem_1._Exchange_if_Greater
             double temp;
 
             // calculation **********************************************
-            if (a > b)
+            bool isGreater = a > b;
+            
+            if (isGreater)
             {
                 temp = a;
                 a = b;
