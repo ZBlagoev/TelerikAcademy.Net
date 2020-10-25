@@ -22,7 +22,7 @@ namespace Problem_4._Multiplication_Sign
             Console.Write("c: ");
             double c = double.Parse(Console.ReadLine());
 
-            string result;
+            string result = "";
 
             // calculation **********************************************
             bool isOneNegative = (a < 0) ^ (b < 0) ^ (c < 0);

@@ -36,7 +36,7 @@ namespace Problem_10._Beer_Time
             Console.Write("time: ");
             string time = Console.ReadLine();
 
-            string partyZeit;
+            string partyZeit = "";
 
                 // variables to test if input is in correct datetime format
             DateTime dDate;
