@@ -27,12 +27,13 @@ namespace Problem_4._Multiplication_Sign
             // calculation **********************************************
             bool isOneNegative = (a < 0) ^ (b < 0) ^ (c < 0);
             bool areAllNegative = (a < 0) && (b < 0) && (c < 0);
+            bool isZero = (a == 0.0) || (b == 0.0) || (c == 0.0);
 
             if (isOneNegative || areAllNegative)
             {
                 result = "result: -";
             }
-            else if ((a == 0.0) || (b == 0.0) || (c == 0.0))
+            else if (isZero)
             {
                 result = "result: 0";
             }
