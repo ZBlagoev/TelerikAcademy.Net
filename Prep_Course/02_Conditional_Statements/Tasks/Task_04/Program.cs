@@ -32,49 +32,62 @@ namespace Task_04
             // calculation
             change = custAmount - itemPrice;
 
-            double amount1Lev = (change);
-            double amount50st = ((change % 1) / 0.5);
-            double amount20st = (((change % 1) % 0.5) / 0.2);
-            double amount10st = ((((change % 1) % 0.5) % 0.2) / 0.1);
-            double amount05st = (((((change % 1) % 0.5) % 0.2) % 0.1) / 0.05);
-            double amount02st = ((((((change % 1) % 0.5) % 0.2) % 0.1) % 0.05) /0.02);
-            double amount01st = (((((((change % 1) % 0.5) % 0.2) % 0.1) % 0.05) % 0.02) / 0.01);
+            double amount1Lev = change;
+            change = Math.Round(change - ((int)amount1Lev * 1), 2);
+
+            double amount50st = change / 0.5;
+            change = Math.Round(change - ((int)amount50st * 0.5), 2);
+
+            double amount20st = change / 0.2;
+            change = Math.Round(change - ((int)amount20st * 0.2), 2);
+
+            double amount10st = change / 0.1;
+            change = Math.Round(change - ((int)amount10st * 0.1), 2);
+
+            double amount05st = change / 0.05;
+            change = Math.Round(change - ((int)amount05st * 0.05), 2);
+
+            double amount02st = change / 0.02;
+            change = Math.Round(change - ((int)amount02st * 0.02), 2);
+
+            double amount01st = change / 0.01;
+            change = Math.Round(change - ((int)amount01st * 0.01), 2);
 
             // output
-                // 1 lev
-            if (amount1Lev != 0)
+            // 1 lev
+            if ((int)amount1Lev != 0)
             {
-                Console.WriteLine($"{amount1Lev} x 1 lev");
+                Console.WriteLine($"{(int)amount1Lev} x 1 lev");
             }
                 // 50 st
-            if (amount50st != 0)
+            if ((int)amount50st != 0)
             {
-                Console.WriteLine($"{amount50st} x 50 stotinki");
+                Console.WriteLine($"{(int)amount50st} x 50 stotinki");
             }
                 // 20 st
-            if (amount20st != 0)
+            if ((int)amount20st != 0)
             {
-                Console.WriteLine($"{amount20st} x 20 stotinki");
+                Console.WriteLine($"{(int)amount20st} x 20 stotinki");
             }
                 // 10 st
-            if (amount10st != 0)
+            if ((int)amount10st != 0)
             {
-                Console.WriteLine($"{amount10st} x 10 stotinki");
+                Console.WriteLine($"{(int)amount10st} x 10 stotinki");
             }
                 // 5 st
-            if (amount05st != 0)
+            if ((int)amount05st != 0)
             {
-                Console.WriteLine($"{amount05st} x 5 stotinki");
+                Console.WriteLine($"{(int)amount05st} x 5 stotinki");
             }
                 // 2 st
-            if (amount02st != 0)
+            if ((int)amount02st != 0)
             {
-                Console.WriteLine($"{amount02st} x 2 stotinki");
+                Console.WriteLine($"{(int)amount02st} x 2 stotinki");
             }
                 // 1 st
-            if (amount01st != 0)
+            if ((int)amount01st != 0)
             {
-                Console.WriteLine($"{amount01st} x 1 stotinka");
+                Console.WriteLine($"{(int)amount01st} x 1 stotinka");
             }
 
 
