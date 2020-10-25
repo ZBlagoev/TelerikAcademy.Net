@@ -29,18 +29,19 @@ namespace Problem_4._Multiplication_Sign
             bool areAllNegative = (a < 0) && (b < 0) && (c < 0);
             bool isZero = (a == 0.0) || (b == 0.0) || (c == 0.0);
 
-            if (isOneNegative || areAllNegative)
-            {
-                result = "result: -";
-            }
-            else if (isZero)
+            if (isZero)
             {
                 result = "result: 0";
+            }
+            else if (isOneNegative || areAllNegative)
+            {
+                result = "result: -";
             }
             else
             {
                 result = "result: +";
             }
+
 
             // output **********************************************
             Console.WriteLine(result);
