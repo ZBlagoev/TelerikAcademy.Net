@@ -6,13 +6,18 @@ using System.Numerics;
 
 namespace HW_07
 {
-    class Program
+    class Problem_7
     {
         static void Main(string[] args)
         {
             // input
+            Console.WriteLine("Problem 7. Sum of greatest and smallest");
+
+            Console.Write("a: ");
             double a = double.Parse(Console.ReadLine());
+            Console.Write("b: ");
             double b = double.Parse(Console.ReadLine());
+            Console.Write("c: ");
             double c = double.Parse(Console.ReadLine());
 
             // calculation
@@ -21,7 +26,7 @@ namespace HW_07
             double sumOf = smallest + biggest;
 
             // output
-            Console.WriteLine(sumOf);
+            Console.WriteLine($"sum: {sumOf}");
 
         }
     }

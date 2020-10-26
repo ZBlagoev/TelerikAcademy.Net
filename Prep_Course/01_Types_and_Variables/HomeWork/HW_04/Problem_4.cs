@@ -6,19 +6,23 @@ using System;
 
 namespace HW_04
 {
-    class Program
+    class Problem_4
     {
         static void Main(string[] args)
         {
             // input
+            Console.WriteLine("Problem 4. Number Comparer");
+
+            Console.Write("a: ");
             double first = double.Parse(Console.ReadLine());
+            Console.Write("b: ");
             double second = double.Parse(Console.ReadLine());
 
             // calculation
             double result = (first + second + Math.Abs(first - second)) / 2;
 
             // output
-            Console.WriteLine(result);
+            Console.WriteLine($"result: {result}");
         }
     }
 }

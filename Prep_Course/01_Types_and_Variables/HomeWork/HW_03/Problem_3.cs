@@ -6,11 +6,14 @@ using System;
 
 namespace HW_03
 {
-    class Program
+    class Problem_3
     {
         static void Main(string[] args)
         {
             // input 
+            Console.WriteLine("Problem 3. Circle Perimeter and Area");
+
+            Console.Write("radius: ");
             double radius = double.Parse(Console.ReadLine());
 
             // calculation
@@ -18,7 +21,9 @@ namespace HW_03
             double perimeter = Math.PI * radius * 2;
 
             // output
+            Console.Write("perimeter: ");
             Console.WriteLine(Math.Round(perimeter, 2));
+            Console.Write("area: ");
             Console.WriteLine(Math.Round(area, 2));
         }
     }

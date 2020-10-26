@@ -7,21 +7,28 @@ using System;
 
 namespace HW_05
 {
-    class Program
+    class Problem_5
     {
         static void Main(string[] args)
         {
             // input
+            Console.WriteLine("Problem 5. Quadratic Equation");
+
+            Console.Write("a: ");
             double a = double.Parse(Console.ReadLine());
+            Console.Write("b: ");
             double b = double.Parse(Console.ReadLine());
+            Console.Write("c: ");
             double c = double.Parse(Console.ReadLine());
 
             // calculation
-            double x1 = (-b + Math.Sqrt(Math.Pow(b, 2) - 4 * a * c)) / (2 * a);
-            double x2 = (-b - Math.Sqrt(Math.Pow(b, 2) - 4 * a * c)) / (2 * a);
+            decimal x1 = (decimal)((-b + Math.Sqrt(Math.Pow(b, 2) - 4 * a * c)) / (2 * a));
+            decimal x2 = (decimal)((-b - Math.Sqrt(Math.Pow(b, 2) - 4 * a * c)) / (2 * a));
 
             // output
+            Console.Write("first root: ");
             Console.WriteLine(x1);
+            Console.Write("second root: ");
             Console.WriteLine(x2);
         }
     }
