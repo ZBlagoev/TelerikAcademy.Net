@@ -33,7 +33,7 @@ namespace Task_06
             // input
 
             string input = Console.ReadLine();
-            string[] fInput = input.Split(" ");
+            string[] fInput = input.Split();
 
             List<double> fehrenheit = new List<double>();
             List<double> celsius = new List<double>();
