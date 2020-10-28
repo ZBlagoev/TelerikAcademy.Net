@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 4. Smaller, greater
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 5. Min Max Sum and Avg", "Problem 5. Min Max Sum and Avg\Problem 5. Min Max Sum and Avg.csproj", "{2085F759-398F-4A0B-8324-867D5A2CA80F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 6. Word or Number", "Problem 6. Word or Number\Problem 6. Word or Number.csproj", "{04C6CF5C-8164-4D4C-BBB7-E1A6C675E4B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2085F759-398F-4A0B-8324-867D5A2CA80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2085F759-398F-4A0B-8324-867D5A2CA80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2085F759-398F-4A0B-8324-867D5A2CA80F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C6CF5C-8164-4D4C-BBB7-E1A6C675E4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C6CF5C-8164-4D4C-BBB7-E1A6C675E4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C6CF5C-8164-4D4C-BBB7-E1A6C675E4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C6CF5C-8164-4D4C-BBB7-E1A6C675E4B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
