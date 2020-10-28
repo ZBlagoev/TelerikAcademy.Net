@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 2. Numbers not divi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3. Number Wave", "Problem 3. Number Wave\Problem 3. Number Wave.csproj", "{477A1119-4D0E-4141-AE5A-5F365978730B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 4. Smaller, greater or equal", "Problem 4. Smaller, greater or equal\Problem 4. Smaller, greater or equal.csproj", "{2837F0C7-A57B-413E-859E-08B687D19803}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{477A1119-4D0E-4141-AE5A-5F365978730B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{477A1119-4D0E-4141-AE5A-5F365978730B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{477A1119-4D0E-4141-AE5A-5F365978730B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2837F0C7-A57B-413E-859E-08B687D19803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2837F0C7-A57B-413E-859E-08B687D19803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2837F0C7-A57B-413E-859E-08B687D19803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2837F0C7-A57B-413E-859E-08B687D19803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
