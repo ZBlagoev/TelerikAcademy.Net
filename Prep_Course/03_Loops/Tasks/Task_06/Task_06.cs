@@ -51,7 +51,7 @@ namespace Task_06
                 // fill celsius list
             foreach (double d in fehrenheit)
             {
-                 celsius.Add(d * 9 / 5 + 32);
+                 celsius.Add(Math.Round(d * 9 / 5 + 32));
             }
 
             // output
