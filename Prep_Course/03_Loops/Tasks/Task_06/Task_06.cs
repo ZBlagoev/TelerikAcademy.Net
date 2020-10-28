@@ -60,3 +60,14 @@ namespace Task_06
         }
     }
 }
+
+/*
+Status: Compile Error
+Error: /tmp/tmpo2NSiA/00305degrees.cs(13,37): error CS1502: The best overloaded 
+method match for `string.Split(params char[])' has some invalid arguments 
+/usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error) 
+/tmp/tmpo2NSiA/00305degrees.cs(13,43): error CS1503: Argument `#1' cannot convert 
+`string' expression to type `char[]'
+*/
+
+
