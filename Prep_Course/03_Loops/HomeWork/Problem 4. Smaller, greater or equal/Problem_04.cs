@@ -15,7 +15,7 @@ namespace Problem_4._Smaller__greater_or_equal
             //input
             Console.WriteLine("Problem 4. Smaller, greater or equal?");
 
-            Console.Write("input: ");
+            Console.Write("n: ");
             int n = int.Parse(Console.ReadLine());
 
             string result = "";
@@ -24,6 +24,7 @@ namespace Problem_4._Smaller__greater_or_equal
 
             for (int i = 0; i < n; i++)
             {
+                Console.Write($"n{i+1}: ");
                 numbers[i] = int.Parse(Console.ReadLine());
             }
 
