@@ -15,15 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 05. Min Max Sum and
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 06. Word or Number", "Problem 6. Word or Number\Problem 06. Word or Number.csproj", "{04C6CF5C-8164-4D4C-BBB7-E1A6C675E4B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 07. Print a Deck of 52 Cards", "Problem 7. Print a Deck of 52 Cards\Problem 07. Print a Deck of 52 Cards.csproj", "{EDABC829-8EC8-46B6-B2D9-15612385D00F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 08. Calculate", "Problem 8. Calculate\Problem 08. Calculate.csproj", "{D6CC40E6-4609-4D10-9AD5-1FE167A56690}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 09. Matrix of Numbers", "Problem 9. Matrix of Numbers\Problem 09. Matrix of Numbers.csproj", "{13408D14-87E7-4EE7-8635-3D0FF58DA1C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 10. Word or Number 2", "Problem 10. Word or Number 2\Problem 10. Word or Number 2.csproj", "{2B9FE365-E41C-4CDF-A934-9D29361AE0BA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 91. Word or Number 3", "Problem 99. Word or Number 3\Problem 91. Word or Number 3.csproj", "{7A9F4613-9B88-410A-8F6A-B9803E2BFB63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 92. Calculate N K", "Problem 99. Calculate N K\Problem 92. Calculate N K.csproj", "{625CBEED-47C4-4DA2-A6C3-890459682425}"
 EndProject
@@ -61,10 +57,6 @@ Global
 		{04C6CF5C-8164-4D4C-BBB7-E1A6C675E4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04C6CF5C-8164-4D4C-BBB7-E1A6C675E4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04C6CF5C-8164-4D4C-BBB7-E1A6C675E4B0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EDABC829-8EC8-46B6-B2D9-15612385D00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDABC829-8EC8-46B6-B2D9-15612385D00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDABC829-8EC8-46B6-B2D9-15612385D00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDABC829-8EC8-46B6-B2D9-15612385D00F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6CC40E6-4609-4D10-9AD5-1FE167A56690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6CC40E6-4609-4D10-9AD5-1FE167A56690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6CC40E6-4609-4D10-9AD5-1FE167A56690}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -77,10 +69,6 @@ Global
 		{2B9FE365-E41C-4CDF-A934-9D29361AE0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B9FE365-E41C-4CDF-A934-9D29361AE0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B9FE365-E41C-4CDF-A934-9D29361AE0BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A9F4613-9B88-410A-8F6A-B9803E2BFB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A9F4613-9B88-410A-8F6A-B9803E2BFB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A9F4613-9B88-410A-8F6A-B9803E2BFB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A9F4613-9B88-410A-8F6A-B9803E2BFB63}.Release|Any CPU.Build.0 = Release|Any CPU
 		{625CBEED-47C4-4DA2-A6C3-890459682425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{625CBEED-47C4-4DA2-A6C3-890459682425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{625CBEED-47C4-4DA2-A6C3-890459682425}.Release|Any CPU.ActiveCfg = Release|Any CPU

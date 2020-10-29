@@ -29,12 +29,7 @@ namespace Problem_8._Calculate
             // calculation
             for (int i = 1; i <= n; i++)
             {
-                factorial = 1;
-
-                for (int j = i; j >= 1;  j--)
-                {
-                    factorial *= j;
-                }
+                factorial *= i;
 
                 s += factorial / Math.Pow(x, i);
             }
