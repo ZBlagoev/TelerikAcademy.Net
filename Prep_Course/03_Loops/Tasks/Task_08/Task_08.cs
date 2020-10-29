@@ -28,14 +28,15 @@ namespace Task_08
             double x = double.Parse(Console.ReadLine());
 
             double s = 1.00;
-            
+            double factorial = 1;
+
             // calculation
-            for (int i = 1; i <= n; i++)
+            for (int i = n; i >= 1; i--)
             {
-                /*
+
                 // solution with while loop 
 
-                double factorial = 1;
+                
                 while (i != 1)
                 {
                     factorial = factorial * i;
@@ -43,25 +44,19 @@ namespace Task_08
                 }
 
                 s += factorial / Math.Pow(x,i);
-                */
-
-                s += factorial_Recursion(i)/ Math.Pow(x,i);
+                factorial = 1;
             }
 
             // output 
+
+            Console.WriteLine(factorial);
+            
+
             Console.WriteLine(Math.Round(s, 5).ToString("0.00000"));
 
         }
 
 
-        // create method for calculating factorial
-        public static double factorial_Recursion(int number)
-        {
-            if (number == 1)
-                return 1;
-            else
-                return number * factorial_Recursion(number - 1);
-        }
     }
 
 
