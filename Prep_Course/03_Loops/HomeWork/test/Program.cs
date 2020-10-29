@@ -6,20 +6,12 @@ namespace test
     {
         static void Main(string[] args)
         {
-            // input
-            int n = int.Parse(Console.ReadLine());
+            for (int i = 1; i < 30; i++)
+            {
+                Console.WriteLine((char)i);
+            }
 
-            int oddN;
-            int evenN;
 
-            //calculation
-            evenN = (n - 1 + (1 % 2)) / 2 + (1 - (1 % 2));
-            oddN = n - evenN;
-
-            // output
-            Console.WriteLine(n);
-            Console.WriteLine(evenN);
-            Console.WriteLine(oddN);
         }
     }
 }
