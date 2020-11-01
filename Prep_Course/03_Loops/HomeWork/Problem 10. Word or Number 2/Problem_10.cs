@@ -58,7 +58,7 @@ namespace Problem_10._Word_or_Number_2
                 // if no words or no nums
             switch (resultS)
             {
-                case "": resultS = "no words";
+                case "": resultS = " no words";
                     break;
             }
 

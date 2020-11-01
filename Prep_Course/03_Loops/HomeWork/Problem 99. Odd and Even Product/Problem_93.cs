@@ -26,7 +26,7 @@ namespace Problem_99._Odd_and_Even_Product
             int n = numStr.Length;
             int[] numbers = Array.ConvertAll(numStr, int.Parse);
 
-            // placeholders for the number of odd and even int below 'n' 
+                // placeholders for the number of odd and even int below 'n' 
             int even = (n - 1 + (1 % 2)) / 2 + (1 - (1 % 2));
             int odd = n - even;          
             

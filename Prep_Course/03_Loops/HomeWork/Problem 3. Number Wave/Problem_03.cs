@@ -5,7 +5,6 @@ from n - 1 to 1 on a single line separated by space.
 */
 
 using System;
-using System.Net.Http.Headers;
 
 namespace Problem_3._Number_Wave
 {

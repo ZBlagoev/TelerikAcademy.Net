@@ -35,7 +35,7 @@ namespace Problem_8._Calculate
             }
 
             // output
-            Console.WriteLine($"S: {Math.Round(s, 5).ToString("0.00000")}");
+            Console.WriteLine($"S: {Math.Round(s, 5):0.00000}");
 
         }
     }

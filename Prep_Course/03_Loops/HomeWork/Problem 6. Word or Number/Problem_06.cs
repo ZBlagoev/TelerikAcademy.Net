@@ -36,7 +36,7 @@ namespace Problem_6._Word_or_Number
             }
             else
             {
-                for (int i = (int)input.Length; i > 0 ; i--)
+                for (int i = input.Length; i > 0 ; i--)
                 {
                     result += input[i-1];
                 }

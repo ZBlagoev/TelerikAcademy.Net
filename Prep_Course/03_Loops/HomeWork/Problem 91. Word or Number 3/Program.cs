@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 
 namespace Problem_91._Word_or_Number_3
 {

@@ -18,10 +18,13 @@ namespace Problem_07._Print_a_deck_of_cards
     {
         static void Main(string[] args)
         {
+            // input
+            
             // calculation & output
             for (int i = 2; i <= 14; i++)
             {
-                for (int j = 5; j < 7; j--) // disclaimer - i had to google the part about the suits
+                for (int j = 5; j < 7; j--) // disclaimer - i had to google the part about the suits 
+                    // first are spades (5), clubs (4), hearts (3) and then diamonds (7)
                 {
                     if (i < 11) 
                     {
@@ -43,7 +46,7 @@ namespace Problem_07._Print_a_deck_of_cards
                             break;
                     }
 
-                    // had to google that part too
+                    // since we have specified ordering of the suits we need these ifs to escape the loop
                     if (j == 3)
                     {
                         j = 7;
