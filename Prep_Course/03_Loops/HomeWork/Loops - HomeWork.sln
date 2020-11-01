@@ -15,21 +15,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 05. Min Max Sum and
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 06. Word or Number", "Problem 6. Word or Number\Problem 06. Word or Number.csproj", "{04C6CF5C-8164-4D4C-BBB7-E1A6C675E4B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 08. Calculate", "Problem 8. Calculate\Problem 08. Calculate.csproj", "{D6CC40E6-4609-4D10-9AD5-1FE167A56690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 08. Calculate", "Problem 8. Calculate\Problem 08. Calculate.csproj", "{D6CC40E6-4609-4D10-9AD5-1FE167A56690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 09. Matrix of Numbers", "Problem 9. Matrix of Numbers\Problem 09. Matrix of Numbers.csproj", "{13408D14-87E7-4EE7-8635-3D0FF58DA1C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 09. Matrix of Numbers", "Problem 9. Matrix of Numbers\Problem 09. Matrix of Numbers.csproj", "{13408D14-87E7-4EE7-8635-3D0FF58DA1C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 10. Word or Number 2", "Problem 10. Word or Number 2\Problem 10. Word or Number 2.csproj", "{2B9FE365-E41C-4CDF-A934-9D29361AE0BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 10. Word or Number 2", "Problem 10. Word or Number 2\Problem 10. Word or Number 2.csproj", "{2B9FE365-E41C-4CDF-A934-9D29361AE0BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 92. Calculate N K", "Problem 99. Calculate N K\Problem 92. Calculate N K.csproj", "{625CBEED-47C4-4DA2-A6C3-890459682425}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 92. Calculate N K", "Problem 99. Calculate N K\Problem 92. Calculate N K.csproj", "{625CBEED-47C4-4DA2-A6C3-890459682425}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 93. Odd and Even Product", "Problem 99. Odd and Even Product\Problem 93. Odd and Even Product.csproj", "{DAECDA3B-43E8-44D9-94C4-461ADEAE55B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 93. Odd and Even Product", "Problem 99. Odd and Even Product\Problem 93. Odd and Even Product.csproj", "{DAECDA3B-43E8-44D9-94C4-461ADEAE55B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 94. Spiral Matrix", "Problem 94. Spiral Matrix\Problem 94. Spiral Matrix.csproj", "{66482969-53AB-4D01-AA2A-9974C6D7C91A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 94. Spiral Matrix", "Problem 94. Spiral Matrix\Problem 94. Spiral Matrix.csproj", "{66482969-53AB-4D01-AA2A-9974C6D7C91A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 07. Print a deck of cards", "Problem 07. Print a deck of cards\Problem 07. Print a deck of cards.csproj", "{241505C9-0C2E-4901-B614-09C647C5FDDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 07. Print a deck of cards", "Problem 07. Print a deck of cards\Problem 07. Print a deck of cards.csproj", "{241505C9-0C2E-4901-B614-09C647C5FDDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{31F95DE3-7803-49E5-9082-5EDA61575626}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{31F95DE3-7803-49E5-9082-5EDA61575626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 91. Word or Number 3", "Problem 91. Word or Number 3\Problem 91. Word or Number 3.csproj", "{3C71CDFD-7E98-4E12-AECF-E8DD77319629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{31F95DE3-7803-49E5-9082-5EDA61575626}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31F95DE3-7803-49E5-9082-5EDA61575626}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31F95DE3-7803-49E5-9082-5EDA61575626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C71CDFD-7E98-4E12-AECF-E8DD77319629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C71CDFD-7E98-4E12-AECF-E8DD77319629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C71CDFD-7E98-4E12-AECF-E8DD77319629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C71CDFD-7E98-4E12-AECF-E8DD77319629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
