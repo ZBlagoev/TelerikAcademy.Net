@@ -18,15 +18,15 @@ namespace Problem_7._Sort_3_Numbers_with_Nested_ifs
             Console.WriteLine("Problem 7. Sort 3 Numbers with Nested ifs");
 
             Console.Write("a: ");
-            int a = int.Parse(Console.ReadLine());
+            double a = double.Parse(Console.ReadLine());
             Console.Write("b: ");
-            int b = int.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
             Console.Write("c: ");
-            int c = int.Parse(Console.ReadLine());
+            double c = double.Parse(Console.ReadLine());
 
-            int small;
-            int medium;
-            int big;
+            double small;
+            double medium;
+            double big;
 
             // calculation **********************************************
                 //big

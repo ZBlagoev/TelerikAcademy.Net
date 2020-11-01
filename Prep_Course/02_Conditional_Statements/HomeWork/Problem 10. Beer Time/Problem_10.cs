@@ -40,13 +40,13 @@ namespace Problem_10._Beer_Time
 
                 // variables to test if input is in correct datetime format
             DateTime dDate;
-            string format = "h:mm tt";
+            string format = "hh:mm tt";
 
             // calculation **********************************************
             if (DateTime.TryParseExact(time, format, CultureInfo.InvariantCulture,DateTimeStyles.None, out dDate)) 
                 // ensures input is in AM/PM form only (revert for previous commit for every datetime format)
             {
-                if ((Convert.ToDateTime(time) >= Convert.ToDateTime("1:00 PM")) || (Convert.ToDateTime(time) <= Convert.ToDateTime("3:00 AM")))
+                if ((Convert.ToDateTime(time) >= Convert.ToDateTime("1:00 PM")) || (Convert.ToDateTime(time) < Convert.ToDateTime("3:00 AM")))
                     // ensures the correct time windows for both outcomes
                 {
                     partyZeit = "beer time";

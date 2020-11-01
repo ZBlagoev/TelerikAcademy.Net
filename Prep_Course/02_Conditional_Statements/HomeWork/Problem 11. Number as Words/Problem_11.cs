@@ -61,13 +61,17 @@ namespace Problem_11._Number_as_Words
             // calculation **********************************************
             
                 // check only for hundreds
-            if (hundreds > 0) 
+            if ((hundreds > 0) && (tenOne > 0)) 
             {
                 result += $"{listOnes[hundreds]} hundred and ";
             }
+            else if (hundreds > 0)
+            {
+                result += $"{listOnes[hundreds]} hundred";
+            }
 
                 // check for tens and ones
-            if (tenOne < 10) // only ones present
+                if ((tenOne < 10) && (tenOne != 0)) // only ones present
             {
                 result += $"{listOnes[ones]}";
             }
@@ -79,7 +83,7 @@ namespace Problem_11._Number_as_Words
             {
                 result += $"{listTens[(tens - 2)]}"; 
             }
-            else /*if ((tenOne >= 20) && (ones > 0))*/  // tens and ones present
+            else if ((tenOne >= 20) && (ones > 0))  // tens and ones present
             {
                 result += $"{listTens[(tens - 2)]} {listOnes[ones]}";
             }
