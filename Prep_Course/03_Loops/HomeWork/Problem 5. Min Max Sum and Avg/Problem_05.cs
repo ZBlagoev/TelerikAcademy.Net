@@ -51,10 +51,10 @@ namespace Problem_5._Min_Max_Sum_and_Avg
 
             // output
             Console.WriteLine("output:");
-            Console.WriteLine($"min={Math.Round(min, 2).ToString("#.00")}");
-            Console.WriteLine($"max={Math.Round(max, 2).ToString("#.00")}");
-            Console.WriteLine($"sum={Math.Round(sum, 2).ToString("#.00")}");
-            Console.WriteLine($"avg={Math.Round(average, 2).ToString("#.00")}");
+            Console.WriteLine($"min={min:#.00}");
+            Console.WriteLine($"max={max:#.00}");
+            Console.WriteLine($"sum={sum:#.00}");
+            Console.WriteLine($"avg={average:#.00}");
         }
     }
 }
