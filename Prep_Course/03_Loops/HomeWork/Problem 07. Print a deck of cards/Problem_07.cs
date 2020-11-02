@@ -18,6 +18,13 @@ namespace Problem_07._Print_a_deck_of_cards
     {
         static void Main(string[] args)
         {
+            /*
+             *  problem: ASCII characters for card suits may not work on some consoles,
+             *  haven't been able to find a work around still, got printed on one machine with Windows 10
+             *  and output question marks on other machine with Windows 10
+             */
+            
+            
             // input
             
             // calculation & output
@@ -45,8 +52,10 @@ namespace Problem_07._Print_a_deck_of_cards
                             Console.Write($"A of {(char)j} ");
                             break;
                     }
-
-                    // since we have specified ordering of the suits we need these ifs to escape the loop
+                    /*
+                    since we have specific ordering of the suits we need these ifs to escape the loop
+                    it starts with 5, going down to 3, then 2nd start from 7 and break at 6
+                    */
                     if (j == 3)
                     {
                         j = 7;
