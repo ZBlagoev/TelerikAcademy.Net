@@ -7,16 +7,17 @@ namespace test
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
+            // Two-dimensional array.
+            int[,] array2D = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
+
+            // Accessing array elements.
+            System.Console.WriteLine(array2D[0, 0]);
+            System.Console.WriteLine(array2D[0, 1]);
+            System.Console.WriteLine(array2D[1, 0]);
+            System.Console.WriteLine(array2D[1, 1]);
+            System.Console.WriteLine(array2D[3, 0]);
 
 
-            for (int i = 0; i <= 255; i++)
-
-            {
-
-                Console.WriteLine("{0} = {1}", i, (char)i);
-                //Console.WriteLine("L♠♥♦♣\n");
-            }
 
         }
     }

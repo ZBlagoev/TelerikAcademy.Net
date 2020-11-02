@@ -25,13 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 92. Calculate N K",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 93. Odd and Even Product", "Problem 99. Odd and Even Product\Problem 93. Odd and Even Product.csproj", "{DAECDA3B-43E8-44D9-94C4-461ADEAE55B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 94. Spiral Matrix", "Problem 94. Spiral Matrix\Problem 94. Spiral Matrix.csproj", "{66482969-53AB-4D01-AA2A-9974C6D7C91A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 07. Print a deck of cards", "Problem 07. Print a deck of cards\Problem 07. Print a deck of cards.csproj", "{241505C9-0C2E-4901-B614-09C647C5FDDB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{31F95DE3-7803-49E5-9082-5EDA61575626}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 91. Word or Number 3", "Problem 91. Word or Number 3\Problem 91. Word or Number 3.csproj", "{3C71CDFD-7E98-4E12-AECF-E8DD77319629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 91. Word or Number 3", "Problem 91. Word or Number 3\Problem 91. Word or Number 3.csproj", "{3C71CDFD-7E98-4E12-AECF-E8DD77319629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,18 +79,10 @@ Global
 		{DAECDA3B-43E8-44D9-94C4-461ADEAE55B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAECDA3B-43E8-44D9-94C4-461ADEAE55B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAECDA3B-43E8-44D9-94C4-461ADEAE55B0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{66482969-53AB-4D01-AA2A-9974C6D7C91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66482969-53AB-4D01-AA2A-9974C6D7C91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66482969-53AB-4D01-AA2A-9974C6D7C91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66482969-53AB-4D01-AA2A-9974C6D7C91A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{241505C9-0C2E-4901-B614-09C647C5FDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{241505C9-0C2E-4901-B614-09C647C5FDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{241505C9-0C2E-4901-B614-09C647C5FDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{241505C9-0C2E-4901-B614-09C647C5FDDB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{31F95DE3-7803-49E5-9082-5EDA61575626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31F95DE3-7803-49E5-9082-5EDA61575626}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31F95DE3-7803-49E5-9082-5EDA61575626}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31F95DE3-7803-49E5-9082-5EDA61575626}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3C71CDFD-7E98-4E12-AECF-E8DD77319629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C71CDFD-7E98-4E12-AECF-E8DD77319629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C71CDFD-7E98-4E12-AECF-E8DD77319629}.Release|Any CPU.ActiveCfg = Release|Any CPU
