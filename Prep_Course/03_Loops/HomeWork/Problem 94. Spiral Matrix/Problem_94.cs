@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+Additional NON-Required Advanced Problem: Spiral Matrix
+Write a program that reads from the console a positive integer number n 
+(1 ≤ n ≤ 20) and prints a matrix holding the numbers from 1 to n*n in 
+the form of square spiral like in the examples below.
+ */
+
+using System;
 
 namespace Problem_94._Spiral_Matrix
 {
@@ -23,13 +30,13 @@ namespace Problem_94._Spiral_Matrix
 
 
             // calculation
-            while (positionValue < maxValue)
+            while (positionValue <= maxValue)
             {
                 //Right Direction Move  
                 for (int horisontal = a; horisontal <= b; horisontal++)
                     matrix[a, horisontal] = positionValue++;
 
-                //Down Direction Move  
+                //Down Direction Move 
                 for (int vertical = a + 1; vertical <= b; vertical++)
                     matrix[vertical, b] = positionValue++;
 
@@ -58,3 +65,34 @@ namespace Problem_94._Spiral_Matrix
         }
     }
 }
+
+/*
+scenario with n = 5:
+
+a = 0
+b = 4
+    //Right Direction Move  
+0,0|0,1|0,2|0,3|0,4
+    //Down Direction Move 
+1,4|2,4|3,4|4,4
+    //Left Direction Move  
+4,3|4,2|4,1|4,0
+    //Up Direction Move
+3,0|2,0|1,0|
+
+a = 1
+b = 3
+    //Right Direction Move  
+1,1|1,2|1,3
+    //Down Direction Move 
+2,3|3,3
+    //Left Direction Move  
+3,2|3,1
+    //Up Direction Move
+2,1
+
+a = 2
+b = 2
+    //Right Direction Move  
+2,2
+*/
