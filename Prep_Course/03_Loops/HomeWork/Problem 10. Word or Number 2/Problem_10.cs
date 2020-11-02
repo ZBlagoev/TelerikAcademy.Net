@@ -36,7 +36,6 @@ namespace Problem_10._Word_or_Number_2
             }
 
             int number;
-            string text;
 
             string resultS = "";
             int resultN = 0;

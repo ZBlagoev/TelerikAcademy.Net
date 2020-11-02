@@ -3,7 +3,7 @@ using System.Text;
 
 namespace test
 {
-    class Program
+    class Test
     {
         static void Main(string[] args)
         {
