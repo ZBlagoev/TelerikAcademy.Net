@@ -10,6 +10,7 @@ The output is like in the examples below.
 */
 
 using System;
+using System.Linq;
 
 namespace Problem_6._Word_or_Number
 {
@@ -26,6 +27,7 @@ namespace Problem_6._Word_or_Number
 
             double number;
             bool isNum = Double.TryParse(input, out number);
+            bool containsInt = input.Any(char.IsDigit);
 
             string result = "";
 
@@ -34,13 +36,25 @@ namespace Problem_6._Word_or_Number
             {
                 result = $"{number += 1}";
             }
-            else
+            else if (!containsInt)
             {
                 for (int i = input.Length; i > 0 ; i--)
                 {
                     result += input[i-1];
                 }
 
+            } 
+            else
+            {
+                for (int i = 0; i < input.Length; i++)
+                {
+                    if (Char.IsDigit(input[i]))
+                    {
+                        result = input[i].ToString();
+                        number += double.Parse(result);
+                    }
+                }
+                result = $"{number + 1}";
             }
 
             // output

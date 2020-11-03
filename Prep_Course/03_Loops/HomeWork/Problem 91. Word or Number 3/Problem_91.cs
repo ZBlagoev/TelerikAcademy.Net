@@ -23,6 +23,7 @@ Two words are adjacent - concatenate and print them.
 */
 
 using System;
+using System.Linq;
 
 namespace Problem_91._Word_or_Number_3
 {
@@ -42,16 +43,39 @@ namespace Problem_91._Word_or_Number_3
             int sum = 0;
             string text = "";
             bool isNum;
+            bool containsInt;
 
             // calculation & output
             for (int i = 1; i <= n; i++)
             {
                 Console.Write("in: ");
                 input = Console.ReadLine();
+
                 isNum = int.TryParse(input, out number);
+                containsInt = input.Any(char.IsDigit);
 
                 if (isNum)
                 {
+                    sum += number;
+
+                    if (text != "")
+                    {
+                        Console.WriteLine($"out: {text.Substring(1)}");
+                    }
+
+                    text = "";
+                }
+                else if (containsInt)
+                {
+                    for (int j = 0; j < input.Length; j++)
+                    {
+                        if (Char.IsDigit(input[j]))
+                        {
+                            string result = input[j].ToString();
+                            number += int.Parse(result);
+                        }
+                    }
+
                     sum += number;
 
                     if (text != "")
