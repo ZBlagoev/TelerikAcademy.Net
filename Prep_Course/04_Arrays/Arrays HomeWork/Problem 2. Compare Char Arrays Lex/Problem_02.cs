@@ -74,21 +74,20 @@ namespace Problem_2._Compare_Char_Arrays_Lex
                 }
             }
 
+            // output
             if (A > B)
             {
-                result = "Second";
+                Console.WriteLine($"result: Second");
             }
             else if (A < B)
             {
-                result = "First";
+                Console.WriteLine($"result: First");
             }
             else
             {
-                result = "Equal";
+                Console.WriteLine($"result: Equal");
             }
 
-            // output
-            Console.WriteLine($"result: {result}");
         }
     }
 }
