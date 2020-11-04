@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 02. Compare Char Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 03. Maximum Sequence", "Problem 03. Maximum Sequence\Problem 03. Maximum Sequence.csproj", "{1B744193-E1EB-4E46-B9E8-AFCDC2205B8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 04. Is Array Sorted", "Problem 04. Is Array Sorted\Problem 04. Is Array Sorted.csproj", "{2F22F9F5-CD03-4D50-8F6B-B0326C631514}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1B744193-E1EB-4E46-B9E8-AFCDC2205B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B744193-E1EB-4E46-B9E8-AFCDC2205B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B744193-E1EB-4E46-B9E8-AFCDC2205B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F22F9F5-CD03-4D50-8F6B-B0326C631514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F22F9F5-CD03-4D50-8F6B-B0326C631514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F22F9F5-CD03-4D50-8F6B-B0326C631514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F22F9F5-CD03-4D50-8F6B-B0326C631514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
