@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 03. Maximum Sequenc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 04. Is Array Sorted", "Problem 04. Is Array Sorted\Problem 04. Is Array Sorted.csproj", "{2F22F9F5-CD03-4D50-8F6B-B0326C631514}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 05. Find Two Biggest Num", "Problem 05. Find Two Biggest Num\Problem 05. Find Two Biggest Num.csproj", "{3093D425-FB73-4C7D-BB8B-39E44A4B775B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2F22F9F5-CD03-4D50-8F6B-B0326C631514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F22F9F5-CD03-4D50-8F6B-B0326C631514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F22F9F5-CD03-4D50-8F6B-B0326C631514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3093D425-FB73-4C7D-BB8B-39E44A4B775B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3093D425-FB73-4C7D-BB8B-39E44A4B775B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3093D425-FB73-4C7D-BB8B-39E44A4B775B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3093D425-FB73-4C7D-BB8B-39E44A4B775B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
