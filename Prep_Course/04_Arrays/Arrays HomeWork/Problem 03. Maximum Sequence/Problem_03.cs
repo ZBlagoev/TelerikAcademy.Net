@@ -21,8 +21,6 @@ namespace Problem_03._Maximum_Sequence
             int counter = 1;
             int max = 1;
 
-            int currint = 0;
-
             // calculation
             for (int i = 0; i < arr.Length; i++)
             {
