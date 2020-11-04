@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+Write a program that finds the two biggest numbers from an array of integers
+*/
+
+using System;
 using System.Linq;
 
 namespace Problem_05._Find_Two_Biggest_Num
