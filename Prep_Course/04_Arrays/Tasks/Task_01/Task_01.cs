@@ -14,6 +14,7 @@ On the only line of output, print all the numbers sorted in format n1, n2, n3, .
 */
 
 using System;
+using System.Linq;
 
 namespace Task_01
 {
@@ -22,10 +23,7 @@ namespace Task_01
         static void Main(string[] args)
         {
             // input
-            string input = Console.ReadLine();
-
-            string[] arrayS = input.Split(',');
-            int[] arrayN = Array.ConvertAll(arrayS, int.Parse);
+            int[] arrayN = Console.ReadLine().Split(',').Select(int.Parse).ToArray();
 
             string result = "";
 
