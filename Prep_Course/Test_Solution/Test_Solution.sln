@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods_Pyramid_Task", "Met
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods_Array_Task", "Methods_Array_Task\Methods_Array_Task.csproj", "{B4C8DAAF-B49E-4A72-A0A2-17F787480F80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "three seven", "three seven\three seven.csproj", "{83F85D34-45EA-4DA7-BF62-9650CF0FAB87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "three seven", "three seven\three seven.csproj", "{83F85D34-45EA-4DA7-BF62-9650CF0FAB87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopTesting", "LoopTesting\LoopTesting.csproj", "{F1A55793-F966-441B-85AC-317539576ECE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{83F85D34-45EA-4DA7-BF62-9650CF0FAB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83F85D34-45EA-4DA7-BF62-9650CF0FAB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83F85D34-45EA-4DA7-BF62-9650CF0FAB87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A55793-F966-441B-85AC-317539576ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A55793-F966-441B-85AC-317539576ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A55793-F966-441B-85AC-317539576ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A55793-F966-441B-85AC-317539576ECE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

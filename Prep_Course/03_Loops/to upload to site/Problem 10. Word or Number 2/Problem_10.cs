@@ -14,6 +14,7 @@ On the second line is the sum of all the numbers or 0 if there were no numbers.
 */
 
 using System;
+using System.Linq;
 
 namespace Problem_10._Word_or_Number_2
 {
@@ -35,21 +36,41 @@ namespace Problem_10._Word_or_Number_2
                 input[i] = Console.ReadLine();
             }
 
-            int number;
-
             string resultS = "";
             int resultN = 0;
 
             // calculation
+
             for (int i = 0; i < input.Length; i++)
             {
-                if (int.TryParse(input[i], out number))
+                    // check if element is number
+                if (int.TryParse(input[i], out int number))
                 {
                     resultN += number;
                 }
-                else
+                else // check if element is word or string that contains digits
                 {
-                    resultS += $"-{input[i]}";
+                    string word = input[i];
+                    bool containsInt = word.Any(char.IsDigit);
+
+                    if (containsInt)
+                    {
+                        for (int j = 0; j < word.Length; j++)
+                        {
+                            if (Char.IsDigit(word[j]))
+                            {
+                                string temp = word[j].ToString();
+                                number += int.Parse(temp);
+                            }
+                        }
+
+                        resultN += number;
+                    }
+                    else
+                    {
+                        resultS += $"-{input[i]}";
+                    }
+
                 }
 
             }
