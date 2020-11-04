@@ -18,6 +18,25 @@ namespace Problem_06._Is_Array_Symmetric
 
             Console.Write("input: ");
             int[] arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+            string result = "Yes";
+
+            // calculation
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] == arr[arr.Length - 1 - i])
+                {
+                    continue;
+                }
+                else
+                {
+                    result = "No";
+                }
+            }
+
+            // output
+            Console.WriteLine($"output: {result}");
+
         }
     }
 }
