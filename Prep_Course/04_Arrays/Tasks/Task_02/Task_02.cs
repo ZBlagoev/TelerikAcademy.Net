@@ -10,7 +10,6 @@ Print the given number with reversed digits
 */
 
 using System;
-using System.Linq;
 
 namespace Task_02
 {
@@ -18,14 +17,25 @@ namespace Task_02
     {
         static void Main(string[] args)
         {
+            // input
             string input = Console.ReadLine();
 
-            string[] arrayS = input.ToCharArray();
-            int[] arrayN = Array.ConvertAll(arrayS, int.Parse);
+            int len = input.Length;
 
-            foreach (int n in arrayN)
+            string[] arrS = new string[len];
+            string[] arrR = new string[len];
+
+            // calculation
+            for (int i = 0; i < len; i++)
             {
-                Console.WriteLine(n);
+                arrS[i] = input[i].ToString();
+                arrR[len - 1 - i] = arrS[i];
+            }
+            
+            // output
+            foreach (string item in arrR)
+            {
+                Console.Write(item);
             }
             
         }
