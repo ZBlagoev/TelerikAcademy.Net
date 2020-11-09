@@ -12,7 +12,7 @@ namespace Kitty
             // input
                 
                 // positions array
-            Console.Write("positions: ");
+            //Console.Write("positions: ");
             string input = Console.ReadLine();
 
             string[] positions = new string[input.Length];
@@ -21,7 +21,7 @@ namespace Kitty
                 positions[i] = input[i].ToString();
             }
                 // movement array
-            Console.Write("movement: ");
+            //Console.Write("movement: ");
             int[] movement = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
                 // indexes
@@ -31,6 +31,8 @@ namespace Kitty
             int deadlocks = 0;
             int jumpsMade = 0;
 
+            bool isDead = false;
+
             // calculation
             for (int i = -1; i < movement.Length; i++)
             {
@@ -39,7 +41,7 @@ namespace Kitty
                 {
                     if (positions[0] == "x")
                     {
-                        deadlocks++;
+                        isDead = true;
                         break;
                     }
                     else
@@ -51,13 +53,20 @@ namespace Kitty
                     // increment of current position
                 if (movement[i] > 0)
                 {
-                    currentPos += movement[i];
+                    if ((currentPos + movement[i]) > positions.Length)
+                    {
+                        currentPos = currentPos + movement[i] - positions.Length;
+                    }
+                    else
+                    {
+                        currentPos += movement[i];
+                    }
                 }
                 else if (movement[i] < 0)
                 {
                     if ((currentPos + movement[i]) < 0)
                     {
-                        currentPos = positions.Length - (currentPos - movement[i]);
+                        currentPos = positions.Length + (currentPos + movement[i]);
                     }
                     else
                     {
@@ -86,7 +95,8 @@ namespace Kitty
                     }
                     else if ((currentPos % 2 == 0) && (soulsCollected <= 0))
                     {
-                        jumpsMade = Array.IndexOf(movement, currentPos);
+                        jumpsMade = i + 1;
+                        isDead = true;
                         break;
                     }
                     else if ((currentPos % 2 != 0) && (foodCollected > 0))
@@ -97,7 +107,8 @@ namespace Kitty
                     }
                     else if ((currentPos % 2 != 0) && (foodCollected <= 0))
                     {
-                        jumpsMade = Array.IndexOf(movement, currentPos);
+                        jumpsMade = i + 1;
+                        isDead = true;
                         break;
                     }
                 }
@@ -105,31 +116,21 @@ namespace Kitty
                 {
                     continue;
                 }
-
-
-
             }
 
-
             // output
-            if (jumpsMade == 0)
+            if (isDead)
+            {
+                Console.WriteLine("You are deadlocked, you greedy kitty!");
+                Console.WriteLine($"Jumps before deadlock: {jumpsMade}");
+            }
+            else
             {
                 Console.WriteLine($"Coder souls collected: {soulsCollected}");
                 Console.WriteLine($"Food collected: {foodCollected}");
                 Console.WriteLine($"Deadlocks: {deadlocks}");
             }
-            else
-            {
-                Console.WriteLine("You are deadlocked, you greedy kitty!");
-                Console.WriteLine($"Jumps before deadlock: {jumpsMade}");
-            }
-
-
-
-
-
-
-
+                
         }
     }
 }
