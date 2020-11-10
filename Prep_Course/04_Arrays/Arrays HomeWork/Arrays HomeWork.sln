@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 01. Compare arrays", "Problem 1. Compare arrays\Problem 01. Compare arrays.csproj", "{C218FCA2-934F-44EF-AAA9-5C07679782B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{F5D863D6-83A2-48A4-8D44-7B92BA97D5F0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 02. Compare Char Arrays Lex", "Problem 2. Compare Char Arrays Lex\Problem 02. Compare Char Arrays Lex.csproj", "{4FA02DC2-2775-4C77-91CE-2001910225B8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 03. Maximum Sequence", "Problem 03. Maximum Sequence\Problem 03. Maximum Sequence.csproj", "{1B744193-E1EB-4E46-B9E8-AFCDC2205B8F}"
@@ -17,15 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 05. Find Two Bigges
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 06. Is Array Symmetric", "Problem 06. Is Array Symmetric\Problem 06. Is Array Symmetric.csproj", "{DE3AD6EE-EF14-4F77-ABA4-E06376306435}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 07. Is Array in Wave Form", "Problem 7. Is Array in Wave Form\Problem 07. Is Array in Wave Form.csproj", "{54D8DE2D-56F1-44F0-9A8B-5C80EDB8256A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 07. Is Array in Wave Form", "Problem 7. Is Array in Wave Form\Problem 07. Is Array in Wave Form.csproj", "{54D8DE2D-56F1-44F0-9A8B-5C80EDB8256A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 08. Negative-Positive Sort", "Problem 08. Negative-Positive Sort\Problem 08. Negative-Positive Sort.csproj", "{A0906983-6657-4D3C-ADA2-882761E89920}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 08. Negative-Positive Sort", "Problem 08. Negative-Positive Sort\Problem 08. Negative-Positive Sort.csproj", "{A0906983-6657-4D3C-ADA2-882761E89920}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 09. Print Max Inc Subsq", "Problem 09. Print Max Inc Subsq\Problem 09. Print Max Inc Subsq.csproj", "{01A42CF4-3029-4D90-B6CB-219BF5E63DDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 09. Print Max Inc Subsq", "Problem 09. Print Max Inc Subsq\Problem 09. Print Max Inc Subsq.csproj", "{01A42CF4-3029-4D90-B6CB-219BF5E63DDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 10. Repeating Numbers", "Problem 10. Repeating Numbers\Problem 10. Repeating Numbers.csproj", "{A6A69FF0-7288-4F6E-A25C-6823C15E7A3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 10. Repeating Numbers", "Problem 10. Repeating Numbers\Problem 10. Repeating Numbers.csproj", "{A6A69FF0-7288-4F6E-A25C-6823C15E7A3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 11. Pairs", "Problem 11. Pairs\Problem 11. Pairs.csproj", "{41555688-A026-427F-833A-C39350DBFB43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 11. Pairs", "Problem 11. Pairs\Problem 11. Pairs.csproj", "{41555688-A026-427F-833A-C39350DBFB43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{C218FCA2-934F-44EF-AAA9-5C07679782B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C218FCA2-934F-44EF-AAA9-5C07679782B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C218FCA2-934F-44EF-AAA9-5C07679782B8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5D863D6-83A2-48A4-8D44-7B92BA97D5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5D863D6-83A2-48A4-8D44-7B92BA97D5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5D863D6-83A2-48A4-8D44-7B92BA97D5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5D863D6-83A2-48A4-8D44-7B92BA97D5F0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4FA02DC2-2775-4C77-91CE-2001910225B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4FA02DC2-2775-4C77-91CE-2001910225B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FA02DC2-2775-4C77-91CE-2001910225B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
