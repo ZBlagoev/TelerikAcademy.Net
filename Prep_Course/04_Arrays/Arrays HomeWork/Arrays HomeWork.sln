@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 01. Compare arrays", "Problem 1. Compare arrays\Problem 01. Compare arrays.csproj", "{C218FCA2-934F-44EF-AAA9-5C07679782B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 01. Compare arrays", "Problem 1. Compare arrays\Problem 01. Compare arrays.csproj", "{C218FCA2-934F-44EF-AAA9-5C07679782B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{F5D863D6-83A2-48A4-8D44-7B92BA97D5F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{F5D863D6-83A2-48A4-8D44-7B92BA97D5F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 02. Compare Char Arrays Lex", "Problem 2. Compare Char Arrays Lex\Problem 02. Compare Char Arrays Lex.csproj", "{4FA02DC2-2775-4C77-91CE-2001910225B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 02. Compare Char Arrays Lex", "Problem 2. Compare Char Arrays Lex\Problem 02. Compare Char Arrays Lex.csproj", "{4FA02DC2-2775-4C77-91CE-2001910225B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 03. Maximum Sequence", "Problem 03. Maximum Sequence\Problem 03. Maximum Sequence.csproj", "{1B744193-E1EB-4E46-B9E8-AFCDC2205B8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 03. Maximum Sequence", "Problem 03. Maximum Sequence\Problem 03. Maximum Sequence.csproj", "{1B744193-E1EB-4E46-B9E8-AFCDC2205B8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 04. Is Array Sorted", "Problem 04. Is Array Sorted\Problem 04. Is Array Sorted.csproj", "{2F22F9F5-CD03-4D50-8F6B-B0326C631514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 04. Is Array Sorted", "Problem 04. Is Array Sorted\Problem 04. Is Array Sorted.csproj", "{2F22F9F5-CD03-4D50-8F6B-B0326C631514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 05. Find Two Biggest Num", "Problem 05. Find Two Biggest Num\Problem 05. Find Two Biggest Num.csproj", "{3093D425-FB73-4C7D-BB8B-39E44A4B775B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 05. Find Two Biggest Num", "Problem 05. Find Two Biggest Num\Problem 05. Find Two Biggest Num.csproj", "{3093D425-FB73-4C7D-BB8B-39E44A4B775B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 06. Is Array Symmetric", "Problem 06. Is Array Symmetric\Problem 06. Is Array Symmetric.csproj", "{DE3AD6EE-EF14-4F77-ABA4-E06376306435}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 06. Is Array Symmetric", "Problem 06. Is Array Symmetric\Problem 06. Is Array Symmetric.csproj", "{DE3AD6EE-EF14-4F77-ABA4-E06376306435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 07. Is Array in Wave Form", "Problem 7. Is Array in Wave Form\Problem 07. Is Array in Wave Form.csproj", "{54D8DE2D-56F1-44F0-9A8B-5C80EDB8256A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{DE3AD6EE-EF14-4F77-ABA4-E06376306435}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE3AD6EE-EF14-4F77-ABA4-E06376306435}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE3AD6EE-EF14-4F77-ABA4-E06376306435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D8DE2D-56F1-44F0-9A8B-5C80EDB8256A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D8DE2D-56F1-44F0-9A8B-5C80EDB8256A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D8DE2D-56F1-44F0-9A8B-5C80EDB8256A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D8DE2D-56F1-44F0-9A8B-5C80EDB8256A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
