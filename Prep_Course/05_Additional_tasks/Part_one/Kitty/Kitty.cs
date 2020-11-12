@@ -25,13 +25,14 @@ that the Kitty is deadlocked. The format is shown in the zero tests and the exam
 * - symbol for food
 x - symbol for deadlock
 
-We start at position 0 and collect a soul @
-We move 1 time to the right and now we are at position 1 and collect a soul @
-We move 1 time to the left and now we are at position 0 and nothing is there because we 
-already collected it, so we continue our path.
-We move 1 time to the left and now we are at position 6 (if you exit the array you should 
-enter from the other side) and we collect food *
-We move 4 times to the right and now we are at position 3 and there is a deadlock.
+- We start at position 0 and collect a soul @
+- We move 1 time to the right and now we are at position 1 and collect a soul @
+- We move 1 time to the left and now we are at position 0 and nothing is there because we 
+  already collected it, so we continue our path.
+- We move 1 time to the left and now we are at position 6 (if you exit the array you should 
+  enter from the other side) and we collect food *
+- We move 4 times to the right and now we are at position 3 and there is a deadlock.
+
 If the deadlock is on even position the Kitty should leave a soul (@) there in order to escape.
 If the deadlock is on odd position the Kitty should leave food (*) there in order to escape.
 Position 3 is odd so we leave food (*) to escape the deadlock.
@@ -71,26 +72,33 @@ namespace Kitty
             bool isDead = false;
 
             // calculation
-            for (int i = -1; i < movement.Length; i++)
+            for (int i = 0; i < movement.Length; i++)
             {
                     // test for start position
-                if (i == -1)
+                if (i == 0)
                 {
-                    if (positions[0] == "x")
+                    if (positions[i] == "x")
                     {
                         isDead = true;
                         break;
                     }
-                    else
+                    else if (positions[i] == "@")
                     {
-                        ++i;
+                        soulsCollected++;
+                        positions[currentPos] = "0";
                     }
+                    else if (positions[i] == "*")
+                    {
+                        foodCollected++;
+                        positions[currentPos] = "0";
+                    }
+
                 }
 
                     // increment of current position
                 if (movement[i] > 0)
                 {
-                    if ((currentPos + movement[i]) > positions.Length)
+                    if ((currentPos + movement[i]) >= positions.Length)
                     {
                         currentPos = currentPos + movement[i] - positions.Length;
                     }
