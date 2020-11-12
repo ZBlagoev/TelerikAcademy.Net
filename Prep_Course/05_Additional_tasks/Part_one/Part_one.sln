@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitty(not)", "Kitty\Kitty(not).csproj", "{64BEC193-DE32-4A99-BCCD-1FCF0572C36C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{FB1F71DA-8F7D-430D-875D-C8E8BD45333D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{FB1F71DA-8F7D-430D-875D-C8E8BD45333D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biggest Prime Number", "Biggest Prime Number\Biggest Prime Number.csproj", "{DF33EC22-C49A-477B-99AC-A933733890C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biggest Prime Number", "Biggest Prime Number\Biggest Prime Number.csproj", "{DF33EC22-C49A-477B-99AC-A933733890C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max Sum of K", "Max Sum of K\Max Sum of K.csproj", "{29776837-BC40-4D74-B8CE-38B39C3896CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max Sum of K", "Max Sum of K\Max Sum of K.csproj", "{29776837-BC40-4D74-B8CE-38B39C3896CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Long seq of equal", "Long seq of equal\Long seq of equal.csproj", "{133CE2EC-634A-46C5-B884-93A19F9D0584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Long seq of equal", "Long seq of equal\Long seq of equal.csproj", "{133CE2EC-634A-46C5-B884-93A19F9D0584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedometer", "Pedometer\Pedometer.csproj", "{E5C4F315-6082-46DE-880F-406D598097DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{133CE2EC-634A-46C5-B884-93A19F9D0584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{133CE2EC-634A-46C5-B884-93A19F9D0584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{133CE2EC-634A-46C5-B884-93A19F9D0584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C4F315-6082-46DE-880F-406D598097DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C4F315-6082-46DE-880F-406D598097DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C4F315-6082-46DE-880F-406D598097DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C4F315-6082-46DE-880F-406D598097DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
