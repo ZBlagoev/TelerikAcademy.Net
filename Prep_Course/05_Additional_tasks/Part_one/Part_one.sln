@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitty", "Kitty\Kitty.csproj", "{64BEC193-DE32-4A99-BCCD-1FCF0572C36C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitty", "Kitty\Kitty.csproj", "{64BEC193-DE32-4A99-BCCD-1FCF0572C36C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{FB1F71DA-8F7D-430D-875D-C8E8BD45333D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{64BEC193-DE32-4A99-BCCD-1FCF0572C36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64BEC193-DE32-4A99-BCCD-1FCF0572C36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64BEC193-DE32-4A99-BCCD-1FCF0572C36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1F71DA-8F7D-430D-875D-C8E8BD45333D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1F71DA-8F7D-430D-875D-C8E8BD45333D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1F71DA-8F7D-430D-875D-C8E8BD45333D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1F71DA-8F7D-430D-875D-C8E8BD45333D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
