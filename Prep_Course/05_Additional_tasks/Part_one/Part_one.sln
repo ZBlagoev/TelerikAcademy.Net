@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secret message", "Secret me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pass_word", "password\Pass_word.csproj", "{D7CDC4ED-2531-4231-9BFD-83C5AB8EB604}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glass_jars", "Glass_jars\Glass_jars.csproj", "{DAC111F9-056D-4B22-8509-0699EFFC8BAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D7CDC4ED-2531-4231-9BFD-83C5AB8EB604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7CDC4ED-2531-4231-9BFD-83C5AB8EB604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7CDC4ED-2531-4231-9BFD-83C5AB8EB604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC111F9-056D-4B22-8509-0699EFFC8BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC111F9-056D-4B22-8509-0699EFFC8BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC111F9-056D-4B22-8509-0699EFFC8BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC111F9-056D-4B22-8509-0699EFFC8BAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
