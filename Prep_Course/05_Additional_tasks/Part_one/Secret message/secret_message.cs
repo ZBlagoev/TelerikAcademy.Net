@@ -20,11 +20,27 @@ using System;
 
 namespace Secret_message
 {
-    class Program
+    class secret_message
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // input
+            string message = Console.ReadLine();
+            string decoded = "";
+
+            // calculation
+            for (int i = message.Length - 1; i >= 0; i--)
+            {
+                if (!(int.TryParse(message[i].ToString(), out int number)))
+                {
+                    decoded += message[i];
+                }
+            }
+
+            // output
+            Console.WriteLine(decoded);
+
+
         }
     }
 }

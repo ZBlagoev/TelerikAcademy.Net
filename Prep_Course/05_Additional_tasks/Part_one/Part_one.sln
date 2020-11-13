@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max Sum of K", "Max Sum of 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Long seq of equal", "Long seq of equal\Long seq of equal.csproj", "{133CE2EC-634A-46C5-B884-93A19F9D0584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedometer", "Pedometer\Pedometer.csproj", "{E5C4F315-6082-46DE-880F-406D598097DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pedometer", "Pedometer\Pedometer.csproj", "{E5C4F315-6082-46DE-880F-406D598097DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{D256465F-95C3-4D49-8E4A-2F29D826AA60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "Game\Game.csproj", "{D256465F-95C3-4D49-8E4A-2F29D826AA60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secret message", "Secret message\Secret message.csproj", "{BC146C3F-7447-4149-9EB9-6DC88D4F1216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secret message", "Secret message\Secret message.csproj", "{BC146C3F-7447-4149-9EB9-6DC88D4F1216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pass_word", "password\Pass_word.csproj", "{D7CDC4ED-2531-4231-9BFD-83C5AB8EB604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{BC146C3F-7447-4149-9EB9-6DC88D4F1216}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC146C3F-7447-4149-9EB9-6DC88D4F1216}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC146C3F-7447-4149-9EB9-6DC88D4F1216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7CDC4ED-2531-4231-9BFD-83C5AB8EB604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CDC4ED-2531-4231-9BFD-83C5AB8EB604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CDC4ED-2531-4231-9BFD-83C5AB8EB604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CDC4ED-2531-4231-9BFD-83C5AB8EB604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
