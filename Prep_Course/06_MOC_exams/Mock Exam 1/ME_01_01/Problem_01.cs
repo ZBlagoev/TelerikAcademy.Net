@@ -1,27 +1,4 @@
-﻿/*
-The crooked digit of a given number N is calculated using the number's digits 
-in a very weird and bendy algorithm. The algorithm takes the following steps:
-
-Sums the digits of the number N and stores the result back in N.
-If the obtained result is bigger than 9, step 1. is repeated, otherwise the algorithm finishes.
-The last obtained value of N is the result, calculated by the algorithm.
-
-Input
-The input data should be read from the console.
-The only line in the input contains a number N, which can be an integer or real number (decimal fraction), 
-positive or negative.
-The input data will always be valid and in the format described. There is no need to check it explicitly.
-
-Output
-The output data should be printed on the console.
-You must print the calculated crooked digit of the number N on the first and only line of the output.
-
-Constraints
-The number N will have no more than 300 digits before and after the decimal point.
-The decimal separator will always be the "." symbol.
-*/
-
-using System;
+﻿using System;
 
 namespace ME_01_01
 {
@@ -32,34 +9,34 @@ namespace ME_01_01
             // input
             string input = Console.ReadLine();
 
-            input = input.Replace(".", "");
-            input = input.Replace("-", "");
+            input.Replace('-','');
+            input.Replace(".", "");
 
-            int result = 0;
-
+            int sum = 0;
+            string holder = "";
 
             // calculation
             for (int i = 0; i < input.Length; i++)
             {
-                result += int.Parse(input[i].ToString());
+                sum += int.Parse(input[i].ToString());
             }
 
-            while (result > 9)
-            {
-                int temp = 0;
+            int sumFinal = sum;
 
-                while (result > 0)
+            while (sumFinal > 9)
+            {
+                holder = sum.ToString();
+                sum = 0;
+                for (int i = 0; i < holder.Length; i++)
                 {
-                    temp += result % 10;
-                    result /= 10;
+                    sum += int.Parse(holder[i].ToString());
                 }
 
-                result = temp;
+                sumFinal = sum;
             }
 
             // output
-            Console.WriteLine(result);
-
+            Console.WriteLine(sumFinal);
         }
     }
 }
