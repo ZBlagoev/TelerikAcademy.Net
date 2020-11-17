@@ -17,6 +17,7 @@
 */
 
 using System;
+using System.Text;
 
 namespace Secret_message
 {
@@ -26,14 +27,14 @@ namespace Secret_message
         {
             // input
             string message = Console.ReadLine();
-            string decoded = "";
+            StringBuilder decoded = new StringBuilder("", 10000);
 
             // calculation
             for (int i = message.Length - 1; i >= 0; i--)
             {
                 if (!(int.TryParse(message[i].ToString(), out int number)))
                 {
-                    decoded += message[i];
+                    decoded.AppendFormat($"{message[i]}");
                 }
             }
 

@@ -12,17 +12,15 @@ namespace Problem_11_Pairs
                    will receive the target sum, on the second line - the array*/
 
             {
-                int sum = int.Parse(Console.ReadLine());
-
-                int[] array = Console.ReadLine().Trim().Split(' ').Select(x => int.Parse(x)).ToArray(); 
+                string[] array = Console.ReadLine().Trim().Split(',').ToArray(); 
 
                 for (int i = 0; i < array.Length; i++)
                 {
                     for (int counter = i + 1; counter < array.Length; counter++)
                     {
-                        if (array[i] + array[counter] == sum)
+                        if (array[i] == array[counter])
                         {
-                            Console.WriteLine(array[i] + " " + array[counter]);
+                            Console.WriteLine(array[counter]);
                         }
                     }
                 }
