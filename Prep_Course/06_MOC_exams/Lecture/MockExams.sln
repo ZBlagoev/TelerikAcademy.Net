@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crooked Digits", "MockExams\Crooked Digits.csproj", "{7B41661C-53BB-43BF-B6A8-958AC43EFDFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balanced Numbers", "Balanced Numbers\Balanced Numbers.csproj", "{C0ABF7A1-D13C-4A29-BB39-24863F49E01C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prime Triangle", "Prime Triangle\Prime Triangle.csproj", "{64DAD60E-D0FF-4DC7-AFA2-B646E448C9DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{31D02F16-7440-4023-8F26-C03B8EE0DDF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Anagrams", "Word Anagrams\Word Anagrams.csproj", "{CBB7C44E-351A-48DF-A0A1-1639895B51E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merging and Squashing", "Merging and Squashing\Merging and Squashing.csproj", "{4E92ACD7-E65A-47AE-AF86-A8794B886A64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B41661C-53BB-43BF-B6A8-958AC43EFDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B41661C-53BB-43BF-B6A8-958AC43EFDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B41661C-53BB-43BF-B6A8-958AC43EFDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B41661C-53BB-43BF-B6A8-958AC43EFDFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0ABF7A1-D13C-4A29-BB39-24863F49E01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0ABF7A1-D13C-4A29-BB39-24863F49E01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0ABF7A1-D13C-4A29-BB39-24863F49E01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0ABF7A1-D13C-4A29-BB39-24863F49E01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DAD60E-D0FF-4DC7-AFA2-B646E448C9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DAD60E-D0FF-4DC7-AFA2-B646E448C9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DAD60E-D0FF-4DC7-AFA2-B646E448C9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DAD60E-D0FF-4DC7-AFA2-B646E448C9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D02F16-7440-4023-8F26-C03B8EE0DDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D02F16-7440-4023-8F26-C03B8EE0DDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D02F16-7440-4023-8F26-C03B8EE0DDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D02F16-7440-4023-8F26-C03B8EE0DDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB7C44E-351A-48DF-A0A1-1639895B51E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB7C44E-351A-48DF-A0A1-1639895B51E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB7C44E-351A-48DF-A0A1-1639895B51E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB7C44E-351A-48DF-A0A1-1639895B51E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E92ACD7-E65A-47AE-AF86-A8794B886A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E92ACD7-E65A-47AE-AF86-A8794B886A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E92ACD7-E65A-47AE-AF86-A8794B886A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E92ACD7-E65A-47AE-AF86-A8794B886A64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C46D65F-62ED-4979-8A28-6ED375540E5E}
+	EndGlobalSection
+EndGlobal

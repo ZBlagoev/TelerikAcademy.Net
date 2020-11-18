@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "Game\Game.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secret message", "Secret message\Secret message.csproj", "{BC146C3F-7447-4149-9EB9-6DC88D4F1216}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pass_word", "password\Pass_word.csproj", "{D7CDC4ED-2531-4231-9BFD-83C5AB8EB604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pass_word", "password\Pass_word.csproj", "{D7CDC4ED-2531-4231-9BFD-83C5AB8EB604}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glass_jars", "Glass_jars\Glass_jars.csproj", "{DAC111F9-056D-4B22-8509-0699EFFC8BAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Glass_jars", "Glass_jars\Glass_jars.csproj", "{DAC111F9-056D-4B22-8509-0699EFFC8BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trapezoid", "Trapezoid\Trapezoid.csproj", "{F4D2D6C2-D9D3-4969-ABEA-0438FDBD941A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trailing Zeros in Factorial", "Trailing Zeros in Factorial\Trailing Zeros in Factorial.csproj", "{FC5209F3-D8A4-4B44-AE30-1860ED6A42DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{DAC111F9-056D-4B22-8509-0699EFFC8BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAC111F9-056D-4B22-8509-0699EFFC8BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAC111F9-056D-4B22-8509-0699EFFC8BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D2D6C2-D9D3-4969-ABEA-0438FDBD941A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D2D6C2-D9D3-4969-ABEA-0438FDBD941A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D2D6C2-D9D3-4969-ABEA-0438FDBD941A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D2D6C2-D9D3-4969-ABEA-0438FDBD941A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC5209F3-D8A4-4B44-AE30-1860ED6A42DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5209F3-D8A4-4B44-AE30-1860ED6A42DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5209F3-D8A4-4B44-AE30-1860ED6A42DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5209F3-D8A4-4B44-AE30-1860ED6A42DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

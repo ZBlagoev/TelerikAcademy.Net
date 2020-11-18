@@ -9,8 +9,8 @@ namespace ME_01_01
             // input
             string input = Console.ReadLine();
 
-            input.Replace('-','');
-            input.Replace(".", "");
+            input = input.Replace(".", "");
+            input = input.Replace("-", "");
 
             int sum = 0;
             string holder = "";
