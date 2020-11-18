@@ -8,12 +8,10 @@ namespace ME_01_01
         {
             // input
             string input = Console.ReadLine();
-
             input = input.Replace(".", "");
             input = input.Replace("-", "");
 
             int sum = 0;
-            string holder = "";
 
             // calculation
             for (int i = 0; i < input.Length; i++)
@@ -22,20 +20,26 @@ namespace ME_01_01
             }
 
             int sumFinal = sum;
+            string sumString = sum.ToString();
+
+            
 
             while (sumFinal > 9)
             {
-                holder = sum.ToString();
+                sumString = sum.ToString();
                 sum = 0;
-                for (int i = 0; i < holder.Length; i++)
+
+                for (int i = 0; i < sumString.Length; i++)
                 {
-                    sum += int.Parse(holder[i].ToString());
+                    sum += int.Parse(sumString[i].ToString());
+                    
                 }
 
                 sumFinal = sum;
             }
 
-            // output
+
+            // output 
             Console.WriteLine(sumFinal);
         }
     }

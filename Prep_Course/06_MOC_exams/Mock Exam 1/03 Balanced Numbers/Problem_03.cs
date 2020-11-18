@@ -12,20 +12,23 @@ namespace _03_Balanced_Numbers
 
             while (isBalanced)
             {
-                int input = int.Parse(Console.ReadLine());
+                int number = int.Parse(Console.ReadLine());
 
-                if ((input % 10) + (input / 100 % 10) == (input / 10 % 10))
+                int a = number % 10;
+                int b = number / 10 % 10;
+                int c = number / 100 % 10;
+
+                if (a + c == b)
                 {
-                    sum += input;
+                    sum += number;
                 }
                 else
                 {
                     isBalanced = false;
+                    Console.WriteLine(sum);
                 }
             }
 
-            // output
-            Console.WriteLine(sum);
 
         }
     }
