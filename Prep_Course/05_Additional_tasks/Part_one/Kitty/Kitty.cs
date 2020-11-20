@@ -48,8 +48,8 @@ namespace Kitty
         static void Main(string[] args)
         {
             // input
-                
-                // positions array
+
+            // positions array
             //Console.Write("positions: ");
             string input = Console.ReadLine();
 
@@ -58,11 +58,11 @@ namespace Kitty
             {
                 positions[i] = input[i].ToString();
             }
-                // movement array
+            // movement array
             //Console.Write("movement: ");
             int[] movement = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
-                // indexes
+            // indexes
             int currentPos = 0;
             int foodCollected = 0;
             int soulsCollected = 0;
@@ -74,7 +74,7 @@ namespace Kitty
             // calculation
             for (int i = 0; i < movement.Length; i++)
             {
-                    // test for start position
+                // test for start position
                 if (i == 0)
                 {
                     if (positions[i] == "x")
@@ -95,31 +95,14 @@ namespace Kitty
 
                 }
 
-                    // increment of current position
-                if (movement[i] > 0)
+                //// increment of current position
+                currentPos = ((currentPos + movement[i]) % positions.Length);
+                if (currentPos < 0)
                 {
-                    if ((currentPos + movement[i]) >= positions.Length)
-                    {
-                        currentPos = currentPos + movement[i] - positions.Length;
-                    }
-                    else
-                    {
-                        currentPos += movement[i];
-                    }
+                    currentPos = positions.Length + currentPos;
                 }
-                else if (movement[i] < 0)
-                {
-                    if ((currentPos + movement[i]) < 0)
-                    {
-                        currentPos = positions.Length + (currentPos + movement[i]);
-                    }
-                    else
-                    {
-                        currentPos += movement[i];
-                    }
-                }
-                
-                    // actions on current position
+
+                // actions on current position
                 if (positions[currentPos] == "@")
                 {
                     soulsCollected++;
@@ -175,7 +158,7 @@ namespace Kitty
                 Console.WriteLine($"Food collected: {foodCollected}");
                 Console.WriteLine($"Deadlocks: {deadlocks}");
             }
-                
+
         }
     }
 }
