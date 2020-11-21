@@ -96,7 +96,7 @@ namespace Kitty
                 }
 
                 //// increment of current position
-                currentPos = ((currentPos + movement[i]) % positions.Length);
+                currentPos = (currentPos + movement[i]) % positions.Length;
                 if (currentPos < 0)
                 {
                     currentPos = positions.Length + currentPos;
