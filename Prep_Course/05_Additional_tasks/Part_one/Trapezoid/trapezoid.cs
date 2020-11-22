@@ -2,7 +2,7 @@
 
 namespace Trapezoid
 {
-    class Program
+    class trapezoid
     {
         static void Main(string[] args)
         {
