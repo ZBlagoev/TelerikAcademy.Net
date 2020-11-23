@@ -1,4 +1,27 @@
-﻿using System;
+﻿/*
+You are given a word W and words WORDS. You tasks is to check whether the words from WORDS are anagrams of W.
+
+An anagram of a word is every other word that has exactly the same number of characters as the original word 
+but in different order. Example:
+
+The following are anagrams of "anagram":
+"gramana", "aaagrnm", "margana", etc..
+The following are NOT anagrams of "anagram":
+"aanagram", "aaagram", "anagra", "anagrama", "yxy"
+Input
+Read from the standard input
+
+On the first line, find the word W
+On the second line, find N - the number of words in WORDS
+On the next N lines, find a single word from WORDS
+Output
+Print to the standard output
+
+For each word from WORDS print either:
+"Yes", if the word is an anagram of W
+"No", if the word is NOT an anagram of W
+*/
+using System;
 
 namespace _03_Word_Anagrams
 {

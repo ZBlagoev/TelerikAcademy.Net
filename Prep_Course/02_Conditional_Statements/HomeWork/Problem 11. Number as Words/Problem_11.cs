@@ -71,7 +71,7 @@ namespace Problem_11._Number_as_Words
             }
 
                 // check for tens and ones
-                if ((tenOne < 10) && (tenOne != 0)) // only ones present
+            if ((tenOne < 10) && (tenOne != 0)) // only ones present
             {
                 result += $"{listOnes[ones]}";
             }

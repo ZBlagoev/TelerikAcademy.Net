@@ -23,15 +23,9 @@ namespace Problem_99._Calculate_N_K
             int factorial = 1;
 
             // calculation
-            for (int i = 1; i <= n; i++)
+            for (int i = n; i > k; i--)
             {
                 factorial *= i;
-
-                if (i <= k)
-                {
-                    factorial /= i;
-                }
-
             }
 
             // output
