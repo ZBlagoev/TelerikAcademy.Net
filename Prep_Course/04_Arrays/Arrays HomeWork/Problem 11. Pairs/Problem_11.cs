@@ -29,11 +29,7 @@ namespace Problem_11._Pairs
                 Array.Sort(arr);
                 for (int j = i + 1; j < arr.Length; j++)
                 {
-                    if (arr[i] == arr[j])
-                    {
-                        continue;
-                    }
-                    else if (arr[i] + arr[j] == sum)
+                    if (arr[i] + arr[j] == sum)
                     {
                         pairs += $"{arr[i]}, {arr[j]}";
                     }
