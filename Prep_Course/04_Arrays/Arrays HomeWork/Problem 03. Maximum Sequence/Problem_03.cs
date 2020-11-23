@@ -22,14 +22,9 @@ namespace Problem_03._Maximum_Sequence
             int max = 1;
 
             // calculation
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 1; i < arr.Length; i++)
             {
-                if (i == 0)
-                {
-                    continue;
-
-                }
-                else if(arr[i - 1] == arr[i])
+                if(arr[i - 1] == arr[i])
                 {
                     counter++;
                 }

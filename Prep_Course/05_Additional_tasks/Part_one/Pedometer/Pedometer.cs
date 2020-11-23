@@ -23,6 +23,7 @@ namespace Pedometer
     {
         static void Main(string[] args)
         {
+            /*
             // input
             int miles = int.Parse(Console.ReadLine());
             int meters = 0;
@@ -32,6 +33,14 @@ namespace Pedometer
 
             // output
             Console.WriteLine(meters);
+            */
+
+            double miles = double.Parse(Console.ReadLine());
+            double meters = 0.00;
+
+            meters = miles * 1609;
+
+            Console.WriteLine(Math.Floor(meters));
 
         }
     }
