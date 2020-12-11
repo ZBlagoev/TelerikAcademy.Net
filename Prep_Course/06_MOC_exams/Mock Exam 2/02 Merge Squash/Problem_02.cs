@@ -58,13 +58,13 @@ namespace _02_Merge_Squash
             // calculation
             for (int i = 0; i < merged.Length; i++)
             {
-                merged[i] = (input[i] % 10 * 10) + (input[i + 1] / 10 % 10);
+                merged[i] = (input[i] % 10 * 10) + (input[i + 1] / 10);
             }
 
             for (int i = 0; i < squashed.Length; i++)
             {
-                int a = input[i] / 10 % 10;
-                int b = (input[i] % 10 + input[i + 1] / 10 % 10) % 10;
+                int a = input[i] / 10;
+                int b = (input[i] % 10 + input[i + 1] / 10) % 10;
                 int c = input[i + 1] % 10;
 
                 squashed[i] = a * 100 + b * 10 + c;
