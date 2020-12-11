@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror_codes", "Mirror_code
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering", "Ordering\Ordering.csproj", "{B34ABC0D-8155-4949-BE5C-6DFEE88241B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play_card", "Play_card\Play_card.csproj", "{DAD8DE22-A46F-408D-8749-6C6FDB2F064B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B34ABC0D-8155-4949-BE5C-6DFEE88241B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B34ABC0D-8155-4949-BE5C-6DFEE88241B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B34ABC0D-8155-4949-BE5C-6DFEE88241B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD8DE22-A46F-408D-8749-6C6FDB2F064B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD8DE22-A46F-408D-8749-6C6FDB2F064B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD8DE22-A46F-408D-8749-6C6FDB2F064B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD8DE22-A46F-408D-8749-6C6FDB2F064B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
