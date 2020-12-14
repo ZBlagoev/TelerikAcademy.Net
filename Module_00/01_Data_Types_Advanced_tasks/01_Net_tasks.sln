@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "Game\Game.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Electronic_message", "Electronic_message\Electronic_message.csproj", "{64354CA2-B8E4-47F2-991B-4BA7619F1B91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror_codes", "Mirror_codes\Mirror_codes.csproj", "{18E6D519-BFDC-4F48-9774-FDC8EF52AF5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mirror_codes", "Mirror_codes\Mirror_codes.csproj", "{18E6D519-BFDC-4F48-9774-FDC8EF52AF5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering", "Ordering\Ordering.csproj", "{B34ABC0D-8155-4949-BE5C-6DFEE88241B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering", "Ordering\Ordering.csproj", "{B34ABC0D-8155-4949-BE5C-6DFEE88241B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play_card", "Play_card\Play_card.csproj", "{DAD8DE22-A46F-408D-8749-6C6FDB2F064B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play_card", "Play_card\Play_card.csproj", "{DAD8DE22-A46F-408D-8749-6C6FDB2F064B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
