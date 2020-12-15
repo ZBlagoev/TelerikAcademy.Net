@@ -9,7 +9,7 @@ namespace Good_numbers
         {
             string input;
 
-            bool error;
+            bool isError;
 
             int[] borders = new int[2];
 
@@ -20,15 +20,15 @@ namespace Good_numbers
                 try
                 {
                     borders = input.Split().Select(int.Parse).ToArray();
-                    error = false;
+                    isError = false;
                 }
                 catch (FormatException e)
                 {
-                    error = true;
+                    isError = true;
                     Console.WriteLine("Please input two int numbers separated by space", e);
                 }
 
-            } while (error);
+            } while (isError);
 
             Console.WriteLine(GoodNumbersFinder(borders));
         }
