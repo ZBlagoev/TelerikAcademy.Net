@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forrest_road", "Forrest_roa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Good_numbers", "Good_numbers\Good_numbers.csproj", "{433E1DDF-B55B-44E6-8CD0-55C34A2177C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signal_from_space", "Signal_from_space\Signal_from_space.csproj", "{2CF8CC34-3B8B-4750-AADB-FE7E57EFA080}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{433E1DDF-B55B-44E6-8CD0-55C34A2177C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{433E1DDF-B55B-44E6-8CD0-55C34A2177C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{433E1DDF-B55B-44E6-8CD0-55C34A2177C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF8CC34-3B8B-4750-AADB-FE7E57EFA080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF8CC34-3B8B-4750-AADB-FE7E57EFA080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF8CC34-3B8B-4750-AADB-FE7E57EFA080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF8CC34-3B8B-4750-AADB-FE7E57EFA080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
