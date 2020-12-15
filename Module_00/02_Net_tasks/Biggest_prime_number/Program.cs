@@ -6,9 +6,7 @@ namespace Biggest_prime_number
     {
         static void Main(string[] args)
         {
-            int number = int.Parse(Console.ReadLine());
-
-            Console.WriteLine(BiggestPrime(number));
+            Console.WriteLine(BiggestPrime(int.Parse(Console.ReadLine())));
         }
 
         static int BiggestPrime(int numberUP)

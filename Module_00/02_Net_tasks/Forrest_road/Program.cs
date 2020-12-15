@@ -6,9 +6,7 @@ namespace Forrest_road
     {
         static void Main(string[] args)
         {
-            int number = int.Parse(Console.ReadLine());
-
-            ForrestPath(number);
+            ForrestPath(int.Parse(Console.ReadLine()));
         }
 
         static void ForrestPath(int number)
