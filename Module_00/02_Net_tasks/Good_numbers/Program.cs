@@ -9,7 +9,7 @@ namespace Good_numbers
         {
             string input;
 
-            bool error = false;
+            bool error;
 
             int[] borders = new int[2];
 
