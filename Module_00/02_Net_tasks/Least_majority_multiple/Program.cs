@@ -99,6 +99,18 @@ namespace Least_majority_multiple
         // method for Greatest Common Divisor
         static int GCD(int a, int b)
         {
+            int remainder;
+
+            while (b != 0)
+            {
+                remainder = a % b;
+                a = b;
+                b = remainder;
+            }
+
+            return a;
+
+            /*
             while (a != 0 && b != 0)
             {
                 if (a > b)
@@ -112,6 +124,7 @@ namespace Least_majority_multiple
             }
 
             return a | b;
+            */
         }
 
 
