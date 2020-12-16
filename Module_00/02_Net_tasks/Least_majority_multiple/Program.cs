@@ -46,11 +46,17 @@ namespace Least_majority_multiple
                 numbers[i] = int.Parse(Console.ReadLine());
             }
 
+
+            Console.WriteLine(LMM_array_finder(numbers));
+        }
+
+        // method for getting 3 non repeating elements from the array
+        static int LMM_array_finder(int[] numbers)
+        {
             Array.Sort(numbers);
 
             int result = int.MaxValue;
 
-            // nested loops for getting 3 non repeating elements from the array
             for (int i = 2; i < numbers.Length; i++)
             {
                 for (int j = 1; j < numbers.Length; j++)
@@ -59,7 +65,7 @@ namespace Least_majority_multiple
                     {
                         continue;
                     }
-                    
+
                     for (int k = 0; k < numbers.Length; k++)
                     {
                         if (k == j)
@@ -70,7 +76,7 @@ namespace Least_majority_multiple
                         {
                             continue;
                         }
-                        
+
                         int lmmBuffer = LMM(numbers[i], numbers[j], numbers[k]);
 
                         if (lmmBuffer < result)
@@ -81,11 +87,11 @@ namespace Least_majority_multiple
                 }
             }
 
-
-            Console.WriteLine(result);
+            return result;
         }
 
-        /* method for Least Majority Multiple*/
+
+        // method for Least Majority Multiple
         static int LMM(int a, int b, int c)
         {
             return LCM(a, LCM(b, c));
