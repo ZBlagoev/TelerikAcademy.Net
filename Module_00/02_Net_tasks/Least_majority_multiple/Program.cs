@@ -71,11 +71,7 @@ namespace Least_majority_multiple
                             continue;
                         }
                         
-                        int a = numbers[i];
-                        int b = numbers[j];
-                        int c = numbers[k];
-
-                        int lmmBuffer = LMM(a, b, c);
+                        int lmmBuffer = LMM(numbers[i], numbers[j], numbers[k]);
 
                         if (lmmBuffer < result)
                         {
