@@ -47,11 +47,11 @@ namespace Least_majority_multiple
             }
 
 
-            Console.WriteLine(LMM_array_finder(numbers));
+            Console.WriteLine(LMM(numbers));
         }
 
-        // method for getting 3 non repeating elements from the array
-        static int LMM_array_finder(int[] numbers)
+        // method for getting 3 non repeating elements from the array and getting their Least Majority Multiplier
+        static int LMM(int[] numbers)
         {
             Array.Sort(numbers);
 
@@ -77,7 +77,7 @@ namespace Least_majority_multiple
                             continue;
                         }
 
-                        int lmmBuffer = LMM(numbers[i], numbers[j], numbers[k]);
+                        int lmmBuffer = LCM(numbers[i], LCM(numbers[j], numbers[k]));
 
                         if (lmmBuffer < result)
                         {
@@ -88,13 +88,6 @@ namespace Least_majority_multiple
             }
 
             return result;
-        }
-
-
-        // method for Least Majority Multiple
-        static int LMM(int a, int b, int c)
-        {
-            return LCM(a, LCM(b, c));
         }
 
         // method for Least Common Multiplier
