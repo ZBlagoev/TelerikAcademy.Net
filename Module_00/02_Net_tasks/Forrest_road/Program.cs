@@ -43,12 +43,14 @@ namespace Forrest_road
             ForrestPath(int.Parse(Console.ReadLine()));
         }
 
+        // combined path method
         static void ForrestPath(int number)
         {
             TopPart(number);
             BottomPart(number);
         }
 
+        // path method top part
         static void TopPart (int number)
         {
             int current = 1;
@@ -72,6 +74,7 @@ namespace Forrest_road
             }
         }
 
+        // path method bottom path
         static void BottomPart (int number)
         {
             int current = number - 1;
