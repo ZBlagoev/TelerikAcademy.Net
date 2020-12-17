@@ -10,7 +10,7 @@ namespace Above_the_main_diag
 
             //AboveMainDiag(MakeMatrix(n));
 
-            PrintMatrix(MakeMatrix(n));
+            PrintSqrMatrix(MakeSqrMatrix(n));
             
         }
 
@@ -31,7 +31,7 @@ namespace Above_the_main_diag
 
 
         // method for making square matrix
-        static long[,] MakeMatrix(int n)
+        static long[,] MakeSqrMatrix(int n)
         {
             long[,] matrix = new long[n, n];
 
@@ -51,13 +51,13 @@ namespace Above_the_main_diag
         }
 
         // method for printing square matrix
-        static void PrintMatrix(long[,] input)
+        static void PrintSqrMatrix(long[,] input)
         {          
             for (int i = 0; i < input.GetLength(0); i++)
             {
                 for (int j = 0; j < input.GetLength(0); j++)
                 {
-                    Console.Write($"{MakeMatrix(input.GetLength(0))[i, j]}\t");
+                    Console.Write($"{MakeSqrMatrix(input.GetLength(0))[i, j]}\t");
                 }
                 Console.WriteLine();
                 Console.WriteLine();
