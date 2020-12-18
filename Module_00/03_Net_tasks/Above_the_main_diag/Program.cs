@@ -57,7 +57,7 @@ namespace Above_the_main_diag
             {
                 for (int j = 0; j < input.GetLength(0); j++)
                 {
-                    Console.Write($"{MakeSqrMatrix(input.GetLength(0))[i, j]}\t");
+                    Console.Write($"{input[i, j]}\t");
                 }
                 Console.WriteLine();
                 Console.WriteLine();
