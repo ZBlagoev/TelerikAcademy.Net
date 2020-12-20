@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 namespace Above_the_main_diag
 {
@@ -8,21 +9,21 @@ namespace Above_the_main_diag
         {
             int n = int.Parse(Console.ReadLine());
 
-            //AboveMainDiag(MakeMatrix(n));
+            AboveMainDiag(MakeSqrMatrix(n));
 
-            PrintSqrMatrix(MakeSqrMatrix(n));
+            //PrintSqrMatrix(MakeSqrMatrix(n));
             
         }
 
-        static void AboveMainDiag(long[,] matrix)
+        static void AboveMainDiag(BigInteger[,] matrix)
         {
-            long sum = 0;
+            BigInteger sum = 0;
 
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
                 for (int j = i + 1; j < matrix.GetLength(0); j++)
                 {
-                    sum += (long)matrix[i, j];
+                    sum += matrix[i, j];
                 }
             }
 
@@ -31,9 +32,9 @@ namespace Above_the_main_diag
 
 
         // method for making square matrix
-        static long[,] MakeSqrMatrix(int n)
+        static BigInteger[,] MakeSqrMatrix(int n)
         {
-            long[,] matrix = new long[n, n];
+            BigInteger[,] matrix = new BigInteger[n, n];
 
             for (int i = 0; i < n; i++)
             {
@@ -41,7 +42,7 @@ namespace Above_the_main_diag
                 
                 for (int j = 0; j < n; j++)
                 {
-                    matrix[i, j] = (int)Math.Pow(2, x);
+                    matrix[i, j] = (BigInteger)Math.Pow(2, x);
 
                     x++;
                 }
@@ -51,7 +52,7 @@ namespace Above_the_main_diag
         }
 
         // method for printing square matrix
-        static void PrintSqrMatrix(long[,] input)
+        static void PrintSqrMatrix(BigInteger[,] input)
         {          
             for (int i = 0; i < input.GetLength(0); i++)
             {
