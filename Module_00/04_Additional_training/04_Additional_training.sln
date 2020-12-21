@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get_Largest_Number", "Get_Largest_Number\Get_Largest_Number.csproj", "{ADA8C118-9B30-45B0-9B14-6B1F8DE48FCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Get_Largest_Number", "Get_Largest_Number\Get_Largest_Number.csproj", "{ADA8C118-9B30-45B0-9B14-6B1F8DE48FCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDC", "GDC\GDC.csproj", "{A5275340-0EC9-4366-8879-608CA9196B6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GDC", "GDC\GDC.csproj", "{A5275340-0EC9-4366-8879-608CA9196B6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spiral_matrix", "Spiral_matrix\Spiral_matrix.csproj", "{9809C39C-42F1-44E7-A4E8-0556C1E79475}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spiral_matrix", "Spiral_matrix\Spiral_matrix.csproj", "{9809C39C-42F1-44E7-A4E8-0556C1E79475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranks", "Ranks\Ranks.csproj", "{F78E31C9-8349-4884-AFFD-4BBA5261D81B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9809C39C-42F1-44E7-A4E8-0556C1E79475}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9809C39C-42F1-44E7-A4E8-0556C1E79475}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9809C39C-42F1-44E7-A4E8-0556C1E79475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78E31C9-8349-4884-AFFD-4BBA5261D81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78E31C9-8349-4884-AFFD-4BBA5261D81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78E31C9-8349-4884-AFFD-4BBA5261D81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78E31C9-8349-4884-AFFD-4BBA5261D81B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
