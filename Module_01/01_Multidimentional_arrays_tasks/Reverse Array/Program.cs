@@ -7,7 +7,7 @@ namespace Reverse_Array
     {
         static void Main(string[] args)
         {
-            string[] array = Console.ReadLine().Split(' ').ToArray();
+            string[] array = Console.ReadLine().Split().ToArray();
 
             string[] reversed = new string[array.Length];
 
@@ -17,6 +17,7 @@ namespace Reverse_Array
             }
 
             Console.WriteLine(String.Join(",", reversed));
+
         }
     }
 }

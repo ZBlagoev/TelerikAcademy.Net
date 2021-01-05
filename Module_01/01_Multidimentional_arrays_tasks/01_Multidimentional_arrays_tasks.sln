@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse Array", "Reverse Array\Reverse Array.csproj", "{8786117E-9C35-49C4-A02D-F03BBE65A8B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse Array", "Reverse Array\Reverse Array.csproj", "{8786117E-9C35-49C4-A02D-F03BBE65A8B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symetric Arrays", "Symetric Arrays\Symetric Arrays.csproj", "{68C8D2FA-1D81-497E-AF1F-4D9E2F7FB79F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Symetric Arrays", "Symetric Arrays\Symetric Arrays.csproj", "{68C8D2FA-1D81-497E-AF1F-4D9E2F7FB79F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{C21BF7E1-513D-4C9C-A51E-19F33DD5B279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Above the main diag", "Above the main diag\Above the main diag.csproj", "{C57B957E-66BE-4376-825D-9ADD4222E432}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{68C8D2FA-1D81-497E-AF1F-4D9E2F7FB79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68C8D2FA-1D81-497E-AF1F-4D9E2F7FB79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68C8D2FA-1D81-497E-AF1F-4D9E2F7FB79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C21BF7E1-513D-4C9C-A51E-19F33DD5B279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21BF7E1-513D-4C9C-A51E-19F33DD5B279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21BF7E1-513D-4C9C-A51E-19F33DD5B279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21BF7E1-513D-4C9C-A51E-19F33DD5B279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C57B957E-66BE-4376-825D-9ADD4222E432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57B957E-66BE-4376-825D-9ADD4222E432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57B957E-66BE-4376-825D-9ADD4222E432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57B957E-66BE-4376-825D-9ADD4222E432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

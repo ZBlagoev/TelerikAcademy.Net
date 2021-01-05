@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Linq;
 
-namespace Symetric_Arrays
+namespace test
 {
-    class Program
+    class test
     {
         static void Main(string[] args)
         {
@@ -19,11 +18,13 @@ namespace Symetric_Arrays
                     continue;
                 }
 
+
                 string[] numbers = input.Split();
 
                 Array.Reverse(numbers);
 
                 string reversed = string.Join(" ", numbers);
+
 
                 if (input.Equals(reversed))
                 {
