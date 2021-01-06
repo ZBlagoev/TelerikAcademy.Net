@@ -64,21 +64,22 @@ namespace Bounce
                 y += horizontalMove;
 
                 // break if matrix is one dimentional
-                if (x == n || y ==m)
+                if (x == n || y == m)
                 {
                     break;
                 }
 
+                // incrementing the sum
                 sum += matrix[x, y];
 
-                // horisontal wallhit
+                // vertical wallhit
                 if (x == n - 1 || x == 0)
                 {
                     verticalMove = -verticalMove;
                 }
 
-                // vertical wallhit
-                if(y == m - 1 || y == 0)
+                // horizontal wallhit
+                if (y == m - 1 || y == 0)
                 {
                     horizontalMove = -horizontalMove;
                 }

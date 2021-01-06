@@ -17,8 +17,8 @@ namespace Big_Numbers
              */
 
             /*
-             * carry: n / 10
-             * result n % 10
+             * tens: n / 10
+             * ones: n % 10
              */
 
             int[] lengths = Console.ReadLine().Split().Select(int.Parse).ToArray();
