@@ -69,9 +69,8 @@ namespace Move
 
 
 
-            Console.WriteLine(sumForw);
-            Console.WriteLine(sumBack);
-
+            Console.WriteLine($"Forward: {sumForw}");
+            Console.WriteLine($"Backwards: {sumBack}");
         }
     }
 }
