@@ -14,7 +14,7 @@ namespace Matrix_Max_Sum
 
             // variables for sums
             int sum = 0;
-            int maxSum = 0;
+            int maxSum = int.MinValue;
 
             // create and fill jagged
             int[][] jagged = new int[n][];
@@ -42,7 +42,6 @@ namespace Matrix_Max_Sum
 
             // check if matrix is ok
             //PrintSqrMatrix(matrix);
-
 
             int[] pairs = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
@@ -92,7 +91,7 @@ namespace Matrix_Max_Sum
                     {
                         if ((i == goalX) || (j == goalY))
                         {
-                            int temp = matrix[i, j];
+                            //int temp = matrix[i, j];
                             sum += matrix[i, j];
                         }
                     }
@@ -106,11 +105,7 @@ namespace Matrix_Max_Sum
                     maxSum = sum;
                 }
             }
-
-            
-
-           
-
+            // print result
             Console.WriteLine(maxSum);
 
         }
