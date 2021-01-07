@@ -8,7 +8,7 @@ namespace Move
         static void Main(string[] args)
         {
             // input
-            int startPosition = int.Parse(Console.ReadLine());
+            int currentPosition = int.Parse(Console.ReadLine());
 
             int[] path = Console.ReadLine().Split(',').Select(int.Parse).ToArray();
 
@@ -17,7 +17,6 @@ namespace Move
             int steps;
             string direction;
             int jump;
-            int currentPosition;
 
             int sumForw = 0;
             int sumBack = 0;
@@ -30,36 +29,31 @@ namespace Move
                 // forwards
                 if (direction == "forward")
                 {
-                    currentPosition = startPosition + jump;
-
-                    for (int i = 1; i <= steps; i++)
+                    for (int i = 0; i < steps; i++)
                     {
+                        currentPosition += jump % path.Length;
 
-                        if (currentPosition > path.Length)
+                        if (currentPosition > path.Length - 1)
                         {
-                            currentPosition = currentPosition % path.Length;
+                            currentPosition -= path.Length;
                         }
 
                         sumForw += path[currentPosition];
-
-                        currentPosition += jump;
                     }
                 }
                 else
                 {
-                    currentPosition = Math.Abs(path.Length + startPosition - jump);
-
-                    for (int i = 0; i <= steps; i++)
+                    for (int i = 0; i < steps; i++)
                     {
+                        currentPosition -= jump % path.Length;
+                        
                         if (currentPosition < 0)
                         {
                             //currentPosition = currentPosition % path.Length;
-                            currentPosition = path.Length + currentPosition;
+                            currentPosition += path.Length;
                         }
 
                         sumBack += path[currentPosition];
-
-                        currentPosition -= jump;
                     }
                 }
                 
