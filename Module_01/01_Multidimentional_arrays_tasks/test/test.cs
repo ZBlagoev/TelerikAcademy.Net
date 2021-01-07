@@ -6,29 +6,35 @@ class Program
 
     static void Main(string[] args)
     {
-        Console.WriteLine();
-        
-        CalculateResultsForStudents("Ivan");
+        string str = Console.ReadLine();
 
-        Console.WriteLine();
+        int sameCharCounter = 1;
+        int maxSequence = 1;
+        int index = 0;
+        int length = 1;
 
-        // string comparison
-        bool isEqual = "Alpha".Equals("Alpha");
-        bool isEqualNoCase = "Alpha".Equals("alpha", StringComparison.InvariantCultureIgnoreCase);
-
-        // string concatenation
-        string result = "snow" + "ball";
-    }
-
-
-    static void CalculateResultsForStudents(string studentName, params string[] exams)
-    {
-        Console.WriteLine($"{studentName}'s exam results:");
-        var rnd = new Random();
-
-        foreach (var exam in exams)
+        for (int i = 1; i < str.Length; i++)
         {
-            Console.WriteLine($"{exam}: {rnd.Next(1, 101)}");
+            if (str[i] == str[i - 1])
+            {
+                sameCharCounter++;
+            }
+            else
+            {
+                if (sameCharCounter > maxSequence)
+                {
+                    maxSequence = sameCharCounter;
+                    index = i - sameCharCounter;
+                    length = sameCharCounter;
+                }
+
+                sameCharCounter = 1;
+            }
+        }
+
+        if (maxSequence >= 2)
+        {
+            Console.WriteLine(str.Substring(index, length));
         }
     }
 }
