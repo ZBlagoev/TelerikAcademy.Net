@@ -1,36 +1,9 @@
 ﻿using System;
 
-namespace Log_Delete_Users
+namespace Processes
 {
-    class Program
+    public class Class1
     {
-        static void Main(string[] args)
-        {
-            string command = Console.ReadLine();
-            string[,] userTable = new string[4, 2];
-
-            while (command != "end")
-            {
-                // processing command
-                var (success, message) = ProcessCommand(command, userTable);
-
-                // logging on console
-                LogColorMessage(message, success ? ConsoleColor.DarkGreen : ConsoleColor.Red);
-
-                /* the above command is called ternar operator and is easy way to write simple
-                 * if else statements
-                 * 
-                if (success) { LogColorMessage(message, ConsoleColor.DarkGreen); }
-                else { LogColorMessage(message, ConsoleColor.Red); }
-                */
-
-                // read new input
-                Console.ResetColor();
-                command = Console.ReadLine();
-
-            }
-        }
-
         /*********************************************************************************/
         // logging on console - message + color
         static void LogColorMessage(string message, ConsoleColor color)
@@ -44,7 +17,7 @@ namespace Log_Delete_Users
         // processing command - register or delete
         static (bool success, string message) ProcessCommand(string command, string[,] userTable)
         {
-            string[] commandArgs = command.Split(" ");
+            string[] commandArgs = command.Split();
 
             // checks for correct command formats
             if (commandArgs.Length < 3)
@@ -67,17 +40,18 @@ namespace Log_Delete_Users
             }
 
             // switch case for the 2 different actions
+            /*
             return commandArgs[0] switch
             {
                 "register" => Register(username, password, userTable),
                 "delete" => Delete(username, password, userTable),
 
                 //default
-                _=> (false, "Invalid command")
+                _ => (false, "Invalid command")
             };
+            */
+            //the above code is the nww C#8 way to write the switch-case 
 
-            /* the above code is the nww C#8 way to write the switch-case 
-             * 
             switch (commandArgs[0])
             {
                 case "register":
@@ -90,8 +64,14 @@ namespace Log_Delete_Users
                         Delete(username, password, userTable);
                         break;
                     }
+                default:
+                    {
+                        return (false, "Password must be at least 3 characters long.");
+                        break;
+                    }
+                        
             }
-            */
+
         }
 
         /*********************************************************************************/
