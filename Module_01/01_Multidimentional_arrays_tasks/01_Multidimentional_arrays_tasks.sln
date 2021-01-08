@@ -31,9 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest Increasing Sequence
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest_Block_In_String", "Longest_Block_In_String\Longest_Block_In_String.csproj", "{D9F9D12F-7DD7-43CB-B31E-E93E44C551C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Three_Groups", "Three_Groups\Three_Groups.csproj", "{DE5A7315-F3DE-48EC-A0A7-EB105D2A77C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Three_Groups", "Three_Groups\Three_Groups.csproj", "{DE5A7315-F3DE-48EC-A0A7-EB105D2A77C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navigation", "Zig_Zag\Navigation.csproj", "{D0632882-49E3-49D4-8FAC-61EDD88C5629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navigation", "Zig_Zag\Navigation.csproj", "{D0632882-49E3-49D4-8FAC-61EDD88C5629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Even_Numbers", "Even_Numbers\Even_Numbers.csproj", "{63815D8A-C243-4BDF-8CFA-A3771643FCC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZIgZag", "ZIgZag\ZIgZag.csproj", "{02E5A7AD-587D-44AF-9E9A-5B1DE71ABB9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{D0632882-49E3-49D4-8FAC-61EDD88C5629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0632882-49E3-49D4-8FAC-61EDD88C5629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0632882-49E3-49D4-8FAC-61EDD88C5629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63815D8A-C243-4BDF-8CFA-A3771643FCC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63815D8A-C243-4BDF-8CFA-A3771643FCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63815D8A-C243-4BDF-8CFA-A3771643FCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63815D8A-C243-4BDF-8CFA-A3771643FCC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E5A7AD-587D-44AF-9E9A-5B1DE71ABB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E5A7AD-587D-44AF-9E9A-5B1DE71ABB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E5A7AD-587D-44AF-9E9A-5B1DE71ABB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E5A7AD-587D-44AF-9E9A-5B1DE71ABB9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
