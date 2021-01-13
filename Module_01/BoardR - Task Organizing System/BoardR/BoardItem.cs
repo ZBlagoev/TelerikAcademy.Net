@@ -113,13 +113,10 @@ namespace BoardR
         }
 
         /*constructor**********************************************************/
-
-        /*
-         * later needs to be transferred in Main so that the 
-         * try-catch will be
-         * in the console so that we can prompt the user to 
-         * put new values to the wanted fileds
-         */
+         // later needs to be transferred in Main so that the 
+         // try-catch will be
+         // in the console so that we can prompt the user to 
+         // put new values to the wanted fileds
         public BoardItem(string title, DateTime dueDate)
         {
             // declaring title of BoardItem
@@ -133,7 +130,7 @@ namespace BoardR
             }
 
             // declaring due date of BoardItem
-            if (dueDate < DateTime.Now) 
+            if (dueDate < DateTime.Now.AddHours(1)) 
             {
                 throw new ArgumentException("Please provide a valid time");
             }

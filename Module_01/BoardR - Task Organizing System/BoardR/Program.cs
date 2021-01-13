@@ -12,7 +12,8 @@ namespace BoardR
             var item3 = new BoardItem("Provide feedback", DateTime.Now.AddDays(1));
 
             //var item4 = new BoardItem("aaa", DateTime.Now.AddDays(1));
-            //var item5 = new BoardItem("read OOP additional resources", DateTime.Now.AddDays(-1));
+            //var item4 = new BoardItem("read OOP additional resources", DateTime.Now.AddDays(-1));
+            //var item4 = new BoardItem("aaaa", DateTime.Now);
 
             // test methods
             item1.PrintDueDate();
