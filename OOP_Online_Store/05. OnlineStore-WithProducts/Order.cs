@@ -33,7 +33,7 @@ namespace Order_WithProducts
         public string Recipient 
         {
             get => this.recipient;
-            set
+            private set
             {
                 if (value.Length < 3 || value.Length > 35)
                 {

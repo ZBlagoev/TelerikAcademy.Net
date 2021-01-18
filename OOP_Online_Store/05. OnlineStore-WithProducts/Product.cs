@@ -48,6 +48,7 @@ namespace Order_WithProducts
                 {
                     throw new ArgumentOutOfRangeException("Product price must not be negative or zero.");
                 }
+                this.price = value;
             }
         }
 

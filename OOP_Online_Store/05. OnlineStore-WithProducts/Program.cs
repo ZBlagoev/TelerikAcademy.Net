@@ -14,9 +14,22 @@ namespace Order_WithProducts
             order2.AddItem(new Product("Sweater", 25));
             order2.AddItem(new Product("Jeans", 30));
 
+            InternationalOrder order3 = new InternationalOrder("Bruce", Currency.USD, new DateTime(2021, 5, 28), "M&S", 20);
+
+            order3.AddItem(new Product("Backpack", 16));
+            order3.AddItem(new Product("Speakers", 90));
+
             Order[] orders = new Order[] { order1, order2 };
 
             foreach (var order in orders)
+            {
+                Console.WriteLine(order.DisplayGeneralInfo());
+                Console.WriteLine(order.DisplayOrderItems());
+            }
+
+            InternationalOrder[] orders2 = new InternationalOrder[] { order3 };
+
+            foreach ( var order in orders2)
             {
                 Console.WriteLine(order.DisplayGeneralInfo());
                 Console.WriteLine(order.DisplayOrderItems());
