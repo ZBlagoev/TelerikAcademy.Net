@@ -6,26 +6,40 @@ class Program
 {
     static void Main(string[] args)
     {
-        List<int[]> passedCells = new List<int[]>();
-        passedCells.Add(new int[2] { -1, -1 });
-
-        int[] coordinates = { -1, -2 };
-        int sum = 0;
-
-        // MasterList.Any(c => c.SequenceEqual(childList))
-
-        if (!(passedCells.Any(c => c.SequenceEqual(coordinates))))
+        Dictionary<string, double> damageCoefitiens = new Dictionary<string, double>()
         {
-            passedCells.Add((int[])coordinates.Clone());
+            {string.Concat(AttackType.Magic.ToString(), ArmorType.Heavy.ToString()), 1.25 }
+        };
 
-            sum++;
-        }
+        string attack = AttackType.Magic.ToString();
+        string armor = ArmorType.Heavy.ToString();
+
+        string attackArmorCombo = string.Concat(attack, armor);
+        int damage = 30;
+        double coefficient = damageCoefitiens[attackArmorCombo];
+        int attackPoints = (int)Math.Floor(damage * coefficient);
+
+
+        Console.WriteLine(attackPoints);
 
 
 
-        Console.WriteLine(sum);
     }
 
+
+    public enum AttackType
+    {
+        Ranged,
+        Melee,
+        Magic
+    }
+
+    public enum ArmorType
+    {
+        Light,
+        Medium,
+        Heavy
+    }
 }
 
 /*
