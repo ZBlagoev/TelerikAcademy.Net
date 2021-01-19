@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Order_WithProducts
 {
-    class Order
+    class Order : IOrder
     {
         /*fields*/
         /****************************************************************************/
