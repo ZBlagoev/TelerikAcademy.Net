@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Order_WithProducts
 {
-    class Order : IOrder
+    abstract class Order : IOrder
     {
         /*fields*/
         /****************************************************************************/
@@ -87,12 +87,7 @@ namespace Order_WithProducts
             return this.DeliveryOn.ToShortDateString();
         }
 
-        public string DisplayGeneralInfo()
-        {
-            string dateFormat = this.DisplayDeliveryDate();
-
-            return $"Order to {this.recipient} | Delivery on: {dateFormat} | Total: {this.DisplayPrice()}";
-        }
+        public abstract string DisplayGeneralInfo();
 
         public string DisplayOrderItems()
         {

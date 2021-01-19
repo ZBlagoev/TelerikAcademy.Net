@@ -33,7 +33,7 @@ namespace Order_WithProducts
         /*methods*/
         /****************************************************************************/
 
-        public new string DisplayGeneralInfo()
+        public override string DisplayGeneralInfo()
         {
             string dateFormat = this.DisplayDeliveryDate();
 
