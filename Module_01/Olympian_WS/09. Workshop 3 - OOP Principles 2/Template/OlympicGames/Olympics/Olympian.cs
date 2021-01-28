@@ -6,7 +6,7 @@ using OlympicGames.Olympics.Enums;
 
 namespace OlympicGames.Olympics
 {
-    class Olympian : IOlympian
+    public abstract class Olympian : IOlympian
     {
         /*fields*/
 
@@ -30,7 +30,7 @@ namespace OlympicGames.Olympics
         public string FirstName
         {
             get => this.firstName;
-            set
+            private set
             {
                 if (!ValidateField(value,2,20))
                 {
@@ -44,7 +44,7 @@ namespace OlympicGames.Olympics
         public string LastName 
         {
             get => this.lastName;
-            set
+            private set
             {
                 if (!ValidateField(value,2,20))
                 {
@@ -58,7 +58,7 @@ namespace OlympicGames.Olympics
         public string Country 
         {
             get => this.country;
-            set
+            private set
             {
                 if (!ValidateField(value, 3, 25))
                 {
