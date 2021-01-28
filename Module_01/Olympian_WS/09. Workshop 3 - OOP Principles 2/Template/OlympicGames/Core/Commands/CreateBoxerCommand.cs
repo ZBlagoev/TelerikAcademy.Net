@@ -33,7 +33,7 @@ namespace OlympicGames.Core.Commands
 
             if (!isIntWins)
             {
-                throw new InvalidParameterTypeException("Wins","a number");
+                throw new InvalidParameterTypeException("Wins and losses","numbers");
             }
 
             int losses;
@@ -42,7 +42,7 @@ namespace OlympicGames.Core.Commands
 
             if (!isIntLosses)
             {
-                throw new InvalidParameterTypeException("Losses", "a number");
+                throw new InvalidParameterTypeException("Wins and losses", "numbers");
             }
 
 
