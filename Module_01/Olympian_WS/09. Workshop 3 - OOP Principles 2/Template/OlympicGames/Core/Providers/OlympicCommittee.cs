@@ -21,7 +21,7 @@ namespace OlympicGames.Core.Providers
         {
             if (this.olympians.Contains(olympian))
             {
-                throw new ArgumentException("ERROR: Olympian already exists");
+                throw new ArgumentException("Olympian already exists");
             }
 
             this.olympians.Add(olympian);

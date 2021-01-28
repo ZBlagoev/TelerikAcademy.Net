@@ -18,7 +18,7 @@ namespace OlympicGames.Core.Commands
         {
             if (this.CommandParameters.Count != 6)
             {
-                throw new ArgumentOutOfRangeException("ERROR: Parameters count is not valid!");
+                throw new ArgumentOutOfRangeException("Parameters count is not valid!");
             }
 
             string firstName = this.CommandParameters[0];
@@ -33,7 +33,7 @@ namespace OlympicGames.Core.Commands
 
             if (!isIntWins)
             {
-                throw new ArgumentException("ERRROR: Wins must be an intager number!");
+                throw new ArgumentException("Wins must be an intager number!");
             }
 
             int losses;
@@ -42,7 +42,7 @@ namespace OlympicGames.Core.Commands
 
             if (!isIntLosses)
             {
-                throw new ArgumentException("ERRROR: Losses must be an intager number!");
+                throw new ArgumentException("Losses must be an intager number!");
             }
 
 

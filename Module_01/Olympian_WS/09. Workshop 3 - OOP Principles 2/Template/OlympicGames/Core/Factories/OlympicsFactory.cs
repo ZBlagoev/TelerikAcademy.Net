@@ -17,7 +17,7 @@ namespace OlympicGames.Core.Factories
 
             if (!isValidCommand)
             {
-                throw new ArgumentException("ERROR: Invalid boxer category");
+                throw new ArgumentException("Invalid boxer category");
             }
 
             return new Boxer(firstName, lastName, country, boxingCategory, wins, losses);
