@@ -12,8 +12,8 @@ namespace OlympicGames.Olympics
         /*fields*/
 
         private readonly BoxingCategory category;
-        private readonly int wins;
-        private readonly int losses;
+        private int wins;
+        private int losses;
 
 
         /*constructor*/
@@ -43,6 +43,8 @@ namespace OlympicGames.Olympics
                 {
                     throw new ArgumentOutOfRangeException("ERROR: Wins must be between 0 and 100!");
                 }
+
+                this.wins = value;
             }
         }
 
@@ -55,6 +57,8 @@ namespace OlympicGames.Olympics
                 {
                     throw new ArgumentOutOfRangeException("ERROR: Losses must be between 0 and 100!");
                 }
+
+                this.losses = value;
             }
         }
 
