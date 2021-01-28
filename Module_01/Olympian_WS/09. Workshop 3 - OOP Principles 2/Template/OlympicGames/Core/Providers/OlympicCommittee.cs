@@ -2,6 +2,7 @@
 using OlympicGames.Core.Contracts;
 using OlympicGames.Olympics.Contracts;
 using System;
+using System.Linq;
 
 namespace OlympicGames.Core.Providers
 {
@@ -19,7 +20,12 @@ namespace OlympicGames.Core.Providers
 
         public void Add(IOlympian olympian)
         {
-            if (this.olympians.Contains(olympian))
+            bool contains = this.olympians.Any(obj =>
+            (obj.Country == olympian.Country
+            && obj.FirstName == olympian.FirstName
+            && obj.LastName == olympian.LastName));
+
+            if (contains)
             {
                 throw new ArgumentException("Olympian already exists");
             }
