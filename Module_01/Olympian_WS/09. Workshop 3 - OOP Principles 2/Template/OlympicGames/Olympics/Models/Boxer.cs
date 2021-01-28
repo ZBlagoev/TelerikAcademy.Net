@@ -84,7 +84,7 @@ namespace OlympicGames.Olympics
             generalInfo.AppendLine($"Category: {this.Category}");
             generalInfo.AppendLine($"Wins: {this.Wins}");
             generalInfo.AppendLine($"Losses: {this.Losses}");
-            generalInfo.AppendLine("####################");
+            //generalInfo.AppendLine("####################");
 
             return generalInfo.ToString().Trim();
         }

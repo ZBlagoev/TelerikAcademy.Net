@@ -45,7 +45,7 @@ namespace OlympicGames.Olympics
             {
                 generalInfo.AppendLine(string.Format($"{pair.Key}m: {pair.Value:#.00}s"));
             }
-            generalInfo.AppendLine("####################");
+            //generalInfo.AppendLine("####################");
 
             return generalInfo.ToString().Trim();
         }
