@@ -7,5 +7,7 @@
         string LastName { get; }
 
         string Country { get; }
+
+        string Print();
     }
 }
