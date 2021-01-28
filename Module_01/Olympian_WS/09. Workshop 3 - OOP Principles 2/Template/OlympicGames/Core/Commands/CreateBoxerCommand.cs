@@ -48,7 +48,6 @@ namespace OlympicGames.Core.Commands
 
             IOlympian olympian = this.Factory.CreateBoxer(firstName, lastName, country, category, wins, losses);
 
-            // check if already exists
             this.Committee.Add(olympian);
 
             var result = new StringBuilder();

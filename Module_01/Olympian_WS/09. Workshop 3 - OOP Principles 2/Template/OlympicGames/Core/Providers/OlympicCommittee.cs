@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using OlympicGames.Core.Contracts;
 using OlympicGames.Olympics.Contracts;
+using System;
 
 namespace OlympicGames.Core.Providers
 {
@@ -18,8 +19,12 @@ namespace OlympicGames.Core.Providers
 
         public void Add(IOlympian olympian)
         {
-            // TODO: Implement this
-            throw new System.NotImplementedException();
+            if (this.olympians.Contains(olympian))
+            {
+                throw new ArgumentException("ERROR: Olympian already exists");
+            }
+
+            this.olympians.Add(olympian);
         }
     }
 }
