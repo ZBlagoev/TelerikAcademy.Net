@@ -1,8 +1,6 @@
-﻿using System;
+﻿using System.Text;
 using System.Collections.Generic;
-using System.Text;
 using OlympicGames.Olympics.Contracts;
-using OlympicGames.Olympics;
 
 namespace OlympicGames.Olympics
 {

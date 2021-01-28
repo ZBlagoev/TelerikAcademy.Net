@@ -1,4 +1,5 @@
 ﻿using System;
+using OlympicGames.Exceptions;
 using System.Collections.Generic;
 using OlympicGames.Olympics;
 using OlympicGames.Olympics.Enums;
@@ -17,7 +18,7 @@ namespace OlympicGames.Core.Factories
 
             if (!isValidCommand)
             {
-                throw new ArgumentException("Invalid boxer category");
+                throw new InvalidParameterTypeException("Boxer category", "one of: Flyweight, Featherweight, Lightweight, Middleweight, Heavyweight");
             }
 
             return new Boxer(firstName, lastName, country, boxingCategory, wins, losses);

@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
-using OlympicGames.Olympics.Contracts;
+using OlympicGames.Exceptions;
 using OlympicGames.Olympics.Enums;
-using OlympicGames.Olympics;
+using OlympicGames.Olympics.Contracts;
 
 namespace OlympicGames.Olympics
 {
@@ -41,7 +40,7 @@ namespace OlympicGames.Olympics
             {
                 if (!ValidateField(value,0,100))
                 {
-                    throw new ArgumentOutOfRangeException("ERROR: Wins must be between 0 and 100!");
+                    throw new InvalidParameterTypeException("Wins","between 0 and 100");
                 }
 
                 this.wins = value;
@@ -55,7 +54,7 @@ namespace OlympicGames.Olympics
             {
                 if (!ValidateField(value, 0, 100))
                 {
-                    throw new ArgumentOutOfRangeException("ERROR: Losses must be between 0 and 100!");
+                    throw new InvalidParameterTypeException("Losses","between 0 and 100");
                 }
 
                 this.losses = value;
@@ -84,7 +83,6 @@ namespace OlympicGames.Olympics
             generalInfo.AppendLine($"Category: {this.Category}");
             generalInfo.AppendLine($"Wins: {this.Wins}");
             generalInfo.AppendLine($"Losses: {this.Losses}");
-            //generalInfo.AppendLine("####################");
 
             return generalInfo.ToString().Trim();
         }

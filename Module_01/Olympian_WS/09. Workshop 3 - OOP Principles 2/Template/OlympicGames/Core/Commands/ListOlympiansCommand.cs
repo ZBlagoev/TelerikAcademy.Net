@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
-using OlympicGames.Core.Commands.Abstracts;
-using OlympicGames.Core.Contracts;
+﻿using System;
 using System.Linq;
-using OlympicGames.Olympics.Contracts;
-using System;
 using System.Text;
+using System.Collections.Generic;
+using OlympicGames.Core.Contracts;
+using OlympicGames.Olympics.Contracts;
+using OlympicGames.Core.Commands.Abstracts;
 
 namespace OlympicGames.Core.Commands
 {
@@ -55,22 +55,22 @@ namespace OlympicGames.Core.Commands
             switch (keySort)
             {
                 case "firstname-desc":
-                    committee = (List<IOlympian>)committee.OrderByDescending(oly => oly.FirstName).ToList();
+                    committee = committee.OrderByDescending(oly => oly.FirstName).ToList();
                     break;
                 case "lastname-asc":
-                    committee = (List<IOlympian>)committee.OrderBy(oly => oly.LastName).ToList();
+                    committee = committee.OrderBy(oly => oly.LastName).ToList();
                     break;
                 case "lastname-desc":
-                    committee = (List<IOlympian>)committee.OrderByDescending(oly => oly.LastName).ToList();
+                    committee = committee.OrderByDescending(oly => oly.LastName).ToList();
                     break;
                 case "country-asc":
-                    committee = (List<IOlympian>)committee.OrderBy(oly => oly.Country).ToList();
+                    committee = committee.OrderBy(oly => oly.Country).ToList();
                     break;
                 case "country-desc":
-                    committee = (List<IOlympian>)committee.OrderByDescending(oly => oly.Country).ToList();
+                    committee = committee.OrderByDescending(oly => oly.Country).ToList();
                     break;
                 default:
-                    committee = (List<IOlympian>)committee.OrderBy(oly => oly.FirstName).ToList();
+                    committee = committee.OrderBy(oly => oly.FirstName).ToList();
                     break;
             }
 

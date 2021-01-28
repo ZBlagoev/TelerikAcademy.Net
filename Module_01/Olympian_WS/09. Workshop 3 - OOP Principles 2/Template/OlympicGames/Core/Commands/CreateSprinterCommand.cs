@@ -1,9 +1,9 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
+using OlympicGames.Exceptions;
 using System.Collections.Generic;
-using OlympicGames.Core.Commands.Abstracts;
 using OlympicGames.Core.Contracts;
 using OlympicGames.Olympics.Contracts;
+using OlympicGames.Core.Commands.Abstracts;
 
 namespace OlympicGames.Core.Commands
 {
@@ -18,7 +18,7 @@ namespace OlympicGames.Core.Commands
         {
             if (this.CommandParameters.Count < 3)
             {
-                throw new ArgumentOutOfRangeException("Parameters count is not valid!");
+                throw new InvalidParameterCountException();
             }
 
             string firstName = this.CommandParameters[0];
@@ -33,20 +33,20 @@ namespace OlympicGames.Core.Commands
                 {
                     string key = CommandParameters[i].Substring(0, CommandParameters[i].IndexOf("/"));
 
-                    int meters;
-                    bool isValidDistance = int.TryParse(key, out meters);
+                    //int meters;
+                    //bool isValidDistance = int.TryParse(key, out meters);
 
-                    if (!isValidDistance || meters <= 0)
-                    {
-                        throw new ArgumentException("Record distance is not valid");
-                    }
+                    //if (!isValidDistance || meters <= 0)
+                    //{
+                    //    throw new InvalidParameterTypeException("Record", "a number");
+                    //}
 
                     double value;
                     bool isValidTime = double.TryParse(CommandParameters[i].Substring(CommandParameters[i].IndexOf("/") + 1), out value);
 
                     if (!isValidTime || value <= 0.0)
                     {
-                        throw new ArgumentException("Record time is not valid");
+                        throw new InvalidParameterTypeException("Record", "number");
                     }
 
                     records.Add(key, value);

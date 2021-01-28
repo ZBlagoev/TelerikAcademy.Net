@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Linq;
+using System.Collections.Generic;
 using OlympicGames.Core.Contracts;
 using OlympicGames.Olympics.Contracts;
-using System;
-using System.Linq;
 
 namespace OlympicGames.Core.Providers
 {
@@ -27,7 +27,7 @@ namespace OlympicGames.Core.Providers
 
             if (contains)
             {
-                throw new ArgumentException("Olympian already exists");
+                throw new Exception("Olympian already exists");
             }
 
             this.olympians.Add(olympian);

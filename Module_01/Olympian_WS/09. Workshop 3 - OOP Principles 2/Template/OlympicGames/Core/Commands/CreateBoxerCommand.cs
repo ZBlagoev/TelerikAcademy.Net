@@ -1,9 +1,9 @@
-﻿using System;
+﻿using System.Text;
+using OlympicGames.Exceptions;
 using System.Collections.Generic;
-using System.Text;
-using OlympicGames.Core.Commands.Abstracts;
 using OlympicGames.Core.Contracts;
 using OlympicGames.Olympics.Contracts;
+using OlympicGames.Core.Commands.Abstracts;
 
 namespace OlympicGames.Core.Commands
 {
@@ -18,7 +18,7 @@ namespace OlympicGames.Core.Commands
         {
             if (this.CommandParameters.Count != 6)
             {
-                throw new ArgumentOutOfRangeException("Parameters count is not valid!");
+                throw new InvalidParameterCountException();
             }
 
             string firstName = this.CommandParameters[0];
@@ -33,7 +33,7 @@ namespace OlympicGames.Core.Commands
 
             if (!isIntWins)
             {
-                throw new ArgumentException("Wins must be an intager number!");
+                throw new InvalidParameterTypeException("Wins","a number");
             }
 
             int losses;
@@ -42,7 +42,7 @@ namespace OlympicGames.Core.Commands
 
             if (!isIntLosses)
             {
-                throw new ArgumentException("Losses must be an intager number!");
+                throw new InvalidParameterTypeException("Losses", "a number");
             }
 
 

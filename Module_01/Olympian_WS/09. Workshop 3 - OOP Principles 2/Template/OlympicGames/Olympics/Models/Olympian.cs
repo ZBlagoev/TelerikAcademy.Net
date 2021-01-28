@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
+using OlympicGames.Exceptions;
 using OlympicGames.Olympics.Contracts;
-using OlympicGames.Olympics.Enums;
 
 namespace OlympicGames.Olympics
 {
@@ -34,7 +33,7 @@ namespace OlympicGames.Olympics
             {
                 if (!ValidateField(value,2,20))
                 {
-                    throw new ArgumentOutOfRangeException("ERROR: First name must be between 2 and 20 characters long!");
+                    throw new InvalidParameterTypeException("First name", "between 2 and 20 characters long");
                 }
 
                 this.firstName = value;
@@ -48,7 +47,7 @@ namespace OlympicGames.Olympics
             {
                 if (!ValidateField(value,2,20))
                 {
-                    throw new ArgumentOutOfRangeException("ERROR: Last name must be between 2 and 20 characters long!");
+                    throw new InvalidParameterTypeException("Last name", "between 2 and 20 characters long");
                 }
 
                 this.lastName = value;
@@ -62,7 +61,7 @@ namespace OlympicGames.Olympics
             {
                 if (!ValidateField(value, 3, 25))
                 {
-                    throw new ArgumentOutOfRangeException("ERROR: Country must be between 3 and 25 characters long!");
+                    throw new InvalidParameterTypeException("Country", "3 and 25 characters long");
                 }
 
                 this.country = value;
