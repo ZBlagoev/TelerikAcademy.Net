@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Text;
 using System.Collections.Generic;
 using OlympicGames.Core.Commands.Abstracts;
 using OlympicGames.Core.Contracts;
+using OlympicGames.Olympics.Contracts;
 
 namespace OlympicGames.Core.Commands
 {
@@ -14,8 +16,50 @@ namespace OlympicGames.Core.Commands
 
         public override string Execute()
         {
-            // TODO: Implement this
-            throw new NotImplementedException();
+            if (this.CommandParameters.Count != 5)
+            {
+                throw new ArgumentOutOfRangeException("Parameters count is not valid!");
+            }
+
+            string firstName = this.CommandParameters[0];
+            string lastName = this.CommandParameters[1];
+            string country = this.CommandParameters[2];
+
+            IDictionary<string, double> records = new Dictionary<string, double>();
+
+            for (int i = 3; i < CommandParameters.Count; i++)
+            {
+                string key = CommandParameters[i].Substring(0, CommandParameters[i].IndexOf("/"));
+
+                int meters;
+                bool isValidDistance = int.TryParse(key, out meters);
+
+                if (!isValidDistance || meters <= 0)
+                {
+                    throw new ArgumentException("Record distance is not valid");
+                }
+
+                double value;
+                bool isValidTime = double.TryParse(CommandParameters[i].Substring(CommandParameters[i].IndexOf("/") + 1), out value);
+
+                if (!isValidTime || value <= 0.0)
+                {
+                    throw new ArgumentException("Record time is not valid");
+                }
+
+                records.Add(key, value);
+            }
+
+            IOlympian olympian = this.Factory.CreateSprinter(firstName, lastName, country, records);
+
+            this.Committee.Add(olympian);
+
+            var result = new StringBuilder();
+
+            result.AppendLine("Created sprinter");
+            result.AppendLine(olympian.Print());
+
+            return result.ToString().Trim();
         }
     }
 }
