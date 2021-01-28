@@ -48,7 +48,7 @@ namespace OlympicGames.Olympics
             {
                 foreach (KeyValuePair<string, double> pair in PersonalRecords)
                 {
-                    generalInfo.AppendLine(string.Format($"{pair.Key}m: {pair.Value:#.00}s"));
+                    generalInfo.AppendLine(string.Format($"{pair.Key}m: {pair.Value:#.0}s"));
                 }
             }
             
