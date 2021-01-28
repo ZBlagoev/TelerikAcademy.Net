@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using OlympicGames.Core.Commands.Abstracts;
 using OlympicGames.Core.Contracts;
 using OlympicGames.Olympics.Contracts;
@@ -50,14 +51,12 @@ namespace OlympicGames.Core.Commands
             // check if already exists
             this.Committee.Add(olympian);
 
-            return "Created boxer";
-            /*
-            Product product = this.productFactory.CreateProduct(name, brand, price, gender);
+            var result = new StringBuilder();
 
-			this.productRepository.Products.Add(name, product);
+            result.AppendLine("Created boxer");
+            result.AppendLine(olympian.Print());
 
-			
-            */
+            return result.ToString().Trim();
         }
     }
 }
