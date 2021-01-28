@@ -41,12 +41,19 @@ namespace OlympicGames.Olympics
 
             generalInfo.AppendLine($"SPRINTER: {base.Print()}");
             generalInfo.AppendLine("PERSONAL RECORDS:");
-            foreach (KeyValuePair<string,double> pair in PersonalRecords)
-            {
-                generalInfo.AppendLine(string.Format($"{pair.Key}m: {pair.Value:#.00}s"));
-            }
-            //generalInfo.AppendLine("####################");
 
+            if (PersonalRecords.Count == 0)
+            {
+                generalInfo.AppendLine("NO PERSONAL RECORDS SET");
+            }
+            else
+            {
+                foreach (KeyValuePair<string, double> pair in PersonalRecords)
+                {
+                    generalInfo.AppendLine(string.Format($"{pair.Key}m: {pair.Value:#.00}s"));
+                }
+            }
+            
             return generalInfo.ToString().Trim();
         }
 
