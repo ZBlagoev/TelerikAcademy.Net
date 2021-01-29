@@ -1,2 +1,2 @@
 # TelerikAcademy.Net
-git repository for all projects concerning the .Net course of Telerik Academy 
+git repository for all projects concerning the prep for .Net course of Telerik Academy 
